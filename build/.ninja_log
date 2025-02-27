@@ -1,0 +1,5 @@
+# ninja log v5
+49	972	7623966332499300	CMakeFiles/TestExample.dir/src/main.cpp.obj	a3839852ec42f29c
+609	711	7623966329845999	KeyHandlerLib.lib	84419a157abeb6c4
+40	609	7623966328911484	CMakeFiles/KeyHandlerLib.dir/src/KeyHandler.cpp.obj	a82b8d1a65f418b1
+974	1214	7623966334852139	TestExample.exe	7c20177f1c8fbcc9

@@ -1,0 +1,20 @@
+[
+{
+  "directory": "C:/Users/jacob/OneDrive/Documents/GitHub/Donk-By-Daylight/build",
+  "command": "C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\Llvm\\bin\\clang.exe -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview -o CMakeFiles\\KeyHandlerLib.dir\\src\\KeyHandler.cpp.obj -c C:\\Users\\jacob\\OneDrive\\Documents\\GitHub\\Donk-By-Daylight\\src\\KeyHandler.cpp",
+  "file": "C:\\Users\\jacob\\OneDrive\\Documents\\GitHub\\Donk-By-Daylight\\src\\KeyHandler.cpp",
+  "output": "CMakeFiles\\KeyHandlerLib.dir\\src\\KeyHandler.cpp.obj"
+},
+{
+  "directory": "C:/Users/jacob/OneDrive/Documents/GitHub/Donk-By-Daylight/build",
+  "command": "C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\Llvm\\bin\\clang.exe -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview -o CMakeFiles\\ScreenHandlerLib.dir\\src\\ScreenHandler.cpp.obj -c C:\\Users\\jacob\\OneDrive\\Documents\\GitHub\\Donk-By-Daylight\\src\\ScreenHandler.cpp",
+  "file": "C:\\Users\\jacob\\OneDrive\\Documents\\GitHub\\Donk-By-Daylight\\src\\ScreenHandler.cpp",
+  "output": "CMakeFiles\\ScreenHandlerLib.dir\\src\\ScreenHandler.cpp.obj"
+},
+{
+  "directory": "C:/Users/jacob/OneDrive/Documents/GitHub/Donk-By-Daylight/build",
+  "command": "C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\Llvm\\bin\\clang.exe -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview -o CMakeFiles\\TestExample.dir\\src\\main.cpp.obj -c C:\\Users\\jacob\\OneDrive\\Documents\\GitHub\\Donk-By-Daylight\\src\\main.cpp",
+  "file": "C:\\Users\\jacob\\OneDrive\\Documents\\GitHub\\Donk-By-Daylight\\src\\main.cpp",
+  "output": "CMakeFiles\\TestExample.dir\\src\\main.cpp.obj"
+}
+]
