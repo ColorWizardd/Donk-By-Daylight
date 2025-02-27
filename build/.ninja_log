@@ -3,3 +3,7 @@
 609	711	7623966329845999	KeyHandlerLib.lib	84419a157abeb6c4
 40	609	7623966328911484	CMakeFiles/KeyHandlerLib.dir/src/KeyHandler.cpp.obj	a82b8d1a65f418b1
 974	1214	7623966334852139	TestExample.exe	7c20177f1c8fbcc9
+26	602	7624003977283815	CMakeFiles/ScreenHandlerLib.dir/src/ScreenHandler.cpp.obj	2d504b99917327e1
+603	702	7624003978190261	ScreenHandlerLib.lib	52e8b60a0d0a512f
+32	959	7624003980842830	CMakeFiles/TestExample.dir/src/main.cpp.obj	a3839852ec42f29c
+959	1138	7624003982538223	TestExample.exe	7c20177f1c8fbcc9
