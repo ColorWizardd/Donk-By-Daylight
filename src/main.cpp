@@ -9,6 +9,7 @@ A COLORWIZARDD PROJECT
 #include "../include/shared/ScreenHandler.h"
 #include <iostream>
 
+// Basic keypress test
 int main() {
     KeyHandler *SpaceCheck = new KeyHandler(0x20);
     const int sleepTime = 20;
