@@ -11,7 +11,7 @@ add_library(ScreenHandlerLib include/shared/ScreenHandler.h src/ScreenHandler.cp
 
 add_executable(TestExample src/main.cpp)
 
-target_link_libraries(TestExample KeyHandlerLib)
+target_link_libraries(TestExample KeyHandlerLib ScreenHandlerLib)
 
 enable_testing()
 add_test(NAME TestExample COMMAND TestExample)

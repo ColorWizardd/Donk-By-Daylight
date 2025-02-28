@@ -60,6 +60,10 @@
 		{
 			"backtrace" : 2,
 			"id" : "KeyHandlerLib::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "ScreenHandlerLib::@6890427a1f51a3e7e1df"
 		}
 	],
 	"id" : "TestExample::@6890427a1f51a3e7e1df",
@@ -78,6 +82,11 @@
 			{
 				"backtrace" : 2,
 				"fragment" : "KeyHandlerLib.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "ScreenHandlerLib.lib",
 				"role" : "libraries"
 			},
 			{

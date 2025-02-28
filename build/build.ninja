@@ -115,7 +115,7 @@ build ScreenHandlerLib.lib: CXX_STATIC_LIBRARY_LINKER__ScreenHandlerLib_Debug CM
 #############################################
 # Order-only phony target for TestExample
 
-build cmake_object_order_depends_target_TestExample: phony || cmake_object_order_depends_target_KeyHandlerLib
+build cmake_object_order_depends_target_TestExample: phony || cmake_object_order_depends_target_KeyHandlerLib cmake_object_order_depends_target_ScreenHandlerLib
 
 build CMakeFiles/TestExample.dir/src/main.cpp.obj: CXX_COMPILER__TestExample_unscanned_Debug C$:/Users/jacob/OneDrive/Documents/GitHub/Donk-By-Daylight/src/main.cpp || cmake_object_order_depends_target_TestExample
   DEP_FILE = CMakeFiles\TestExample.dir\src\main.cpp.obj.d
@@ -133,10 +133,10 @@ build CMakeFiles/TestExample.dir/src/main.cpp.obj: CXX_COMPILER__TestExample_uns
 #############################################
 # Link the executable TestExample.exe
 
-build TestExample.exe: CXX_EXECUTABLE_LINKER__TestExample_Debug CMakeFiles/TestExample.dir/src/main.cpp.obj | KeyHandlerLib.lib || KeyHandlerLib.lib
+build TestExample.exe: CXX_EXECUTABLE_LINKER__TestExample_Debug CMakeFiles/TestExample.dir/src/main.cpp.obj | KeyHandlerLib.lib ScreenHandlerLib.lib || KeyHandlerLib.lib ScreenHandlerLib.lib
   FLAGS = -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview
   LINK_FLAGS = -Xlinker /subsystem:console
-  LINK_LIBRARIES = KeyHandlerLib.lib  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 -loldnames
+  LINK_LIBRARIES = KeyHandlerLib.lib  ScreenHandlerLib.lib  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 -loldnames
   OBJECT_DIR = CMakeFiles\TestExample.dir
   POST_BUILD = cd .
   PRE_LINK = cd .

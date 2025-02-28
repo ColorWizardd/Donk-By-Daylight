@@ -12,7 +12,10 @@ ScreenHandler::ScreenHandler() {
 }
 
 ScreenHandler::ScreenHandler(const char *windowTarget) {
-
+    setWindowHeight(0);
+    setWindowLength(0);
+    setWindowTarget(windowTarget);
+    setExist(initializeWindow());
 }
 
 bool ScreenHandler::initializeWindow() {
@@ -48,7 +51,7 @@ long ScreenHandler::getWindowLength(HWND window) const {
 long ScreenHandler::getWindowHeight(HWND window) const { 
     LPRECT context;
     GetWindowRect(window, context);
-    return (context->top - context->bottom);
+    return (context->bottom - context->top);
 }
 
 void ScreenHandler::setWindowLength(long length) {
