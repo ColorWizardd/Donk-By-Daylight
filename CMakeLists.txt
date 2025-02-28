@@ -8,10 +8,11 @@ project(
 
 add_library(KeyHandlerLib include/shared/KeyHandler.h src/KeyHandler.cpp)
 add_library(ScreenHandlerLib include/shared/ScreenHandler.h src/ScreenHandler.cpp)
+add_library(SettingsLib include/shared/Settings.h src/Settings.cpp)
 
 add_executable(TestExample src/main.cpp)
 
-target_link_libraries(TestExample KeyHandlerLib ScreenHandlerLib)
+target_link_libraries(TestExample KeyHandlerLib ScreenHandlerLib SettingsLib)
 
 enable_testing()
 add_test(NAME TestExample COMMAND TestExample)

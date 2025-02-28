@@ -1,12 +1,14 @@
 # ninja log v5
-28	955	7624159315043706	CMakeFiles/TestExample.dir/src/main.cpp.obj	a3839852ec42f29c
-631	733	7624153113148079	KeyHandlerLib.lib	84419a157abeb6c4
-20	630	7624153112118636	CMakeFiles/KeyHandlerLib.dir/src/KeyHandler.cpp.obj	a82b8d1a65f418b1
-641	765	7624160011574900	TestExample.exe	260e24336a2e20d3
-7	544	7624160009448703	CMakeFiles/ScreenHandlerLib.dir/src/ScreenHandler.cpp.obj	2d504b99917327e1
-545	639	7624160010335604	ScreenHandlerLib.lib	52e8b60a0d0a512f
 23	939	7624160617768636	CMakeFiles/TestExample.dir/src/main.cpp.obj	a3839852ec42f29c
-940	1070	7624160618989901	TestExample.exe	260e24336a2e20d3
-6	605	7624161674909280	CMakeFiles/ScreenHandlerLib.dir/src/ScreenHandler.cpp.obj	2d504b99917327e1
-607	702	7624161675906742	ScreenHandlerLib.lib	52e8b60a0d0a512f
+600	752	7624598454526378	KeyHandlerLib.lib	84419a157abeb6c4
+18	599	7624598453195861	CMakeFiles/KeyHandlerLib.dir/src/KeyHandler.cpp.obj	a82b8d1a65f418b1
 702	827	7624161677110808	TestExample.exe	260e24336a2e20d3
+23	630	7624598453250931	CMakeFiles/ScreenHandlerLib.dir/src/ScreenHandler.cpp.obj	2d504b99917327e1
+630	758	7624598454413083	ScreenHandlerLib.lib	52e8b60a0d0a512f
+36	90	7624605625480911	CMakeFiles/SettingsLib.dir/src/Settings.cpp.obj	222e691fe32fb3b6
+91	187	7624605626295622	SettingsLib.lib	cf4a131d8a599392
+24	601	7624605630500883	CMakeFiles/KeyHandlerLib.dir/src/KeyHandler.cpp.obj	a82b8d1a65f418b1
+30	617	7624605630570853	CMakeFiles/ScreenHandlerLib.dir/src/ScreenHandler.cpp.obj	2d504b99917327e1
+602	692	7624605631374853	KeyHandlerLib.lib	84419a157abeb6c4
+617	704	7624605631523622	ScreenHandlerLib.lib	52e8b60a0d0a512f
+704	847	7624605632904690	TestExample.exe	ac50f9bb63cd94d3

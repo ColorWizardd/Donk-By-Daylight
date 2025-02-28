@@ -109,13 +109,47 @@ build ScreenHandlerLib.lib: CXX_STATIC_LIBRARY_LINKER__ScreenHandlerLib_Debug CM
   TARGET_PDB = ScreenHandlerLib.pdb
 
 # =============================================================================
+# Object build statements for STATIC_LIBRARY target SettingsLib
+
+
+#############################################
+# Order-only phony target for SettingsLib
+
+build cmake_object_order_depends_target_SettingsLib: phony || CMakeFiles/SettingsLib.dir
+
+build CMakeFiles/SettingsLib.dir/src/Settings.cpp.obj: CXX_COMPILER__SettingsLib_unscanned_Debug C$:/Users/jacob/OneDrive/Documents/GitHub/Donk-By-Daylight/src/Settings.cpp || cmake_object_order_depends_target_SettingsLib
+  DEP_FILE = CMakeFiles\SettingsLib.dir\src\Settings.cpp.obj.d
+  FLAGS = -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview
+  OBJECT_DIR = CMakeFiles\SettingsLib.dir
+  OBJECT_FILE_DIR = CMakeFiles\SettingsLib.dir\src
+  TARGET_COMPILE_PDB = CMakeFiles\SettingsLib.dir\SettingsLib.pdb
+  TARGET_PDB = SettingsLib.pdb
+
+
+# =============================================================================
+# Link build statements for STATIC_LIBRARY target SettingsLib
+
+
+#############################################
+# Link the static library SettingsLib.lib
+
+build SettingsLib.lib: CXX_STATIC_LIBRARY_LINKER__SettingsLib_Debug CMakeFiles/SettingsLib.dir/src/Settings.cpp.obj
+  LANGUAGE_COMPILE_FLAGS = -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview
+  OBJECT_DIR = CMakeFiles\SettingsLib.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_COMPILE_PDB = CMakeFiles\SettingsLib.dir\SettingsLib.pdb
+  TARGET_FILE = SettingsLib.lib
+  TARGET_PDB = SettingsLib.pdb
+
+# =============================================================================
 # Object build statements for EXECUTABLE target TestExample
 
 
 #############################################
 # Order-only phony target for TestExample
 
-build cmake_object_order_depends_target_TestExample: phony || cmake_object_order_depends_target_KeyHandlerLib cmake_object_order_depends_target_ScreenHandlerLib
+build cmake_object_order_depends_target_TestExample: phony || cmake_object_order_depends_target_KeyHandlerLib cmake_object_order_depends_target_ScreenHandlerLib cmake_object_order_depends_target_SettingsLib
 
 build CMakeFiles/TestExample.dir/src/main.cpp.obj: CXX_COMPILER__TestExample_unscanned_Debug C$:/Users/jacob/OneDrive/Documents/GitHub/Donk-By-Daylight/src/main.cpp || cmake_object_order_depends_target_TestExample
   DEP_FILE = CMakeFiles\TestExample.dir\src\main.cpp.obj.d
@@ -133,10 +167,10 @@ build CMakeFiles/TestExample.dir/src/main.cpp.obj: CXX_COMPILER__TestExample_uns
 #############################################
 # Link the executable TestExample.exe
 
-build TestExample.exe: CXX_EXECUTABLE_LINKER__TestExample_Debug CMakeFiles/TestExample.dir/src/main.cpp.obj | KeyHandlerLib.lib ScreenHandlerLib.lib || KeyHandlerLib.lib ScreenHandlerLib.lib
+build TestExample.exe: CXX_EXECUTABLE_LINKER__TestExample_Debug CMakeFiles/TestExample.dir/src/main.cpp.obj | KeyHandlerLib.lib ScreenHandlerLib.lib SettingsLib.lib || KeyHandlerLib.lib ScreenHandlerLib.lib SettingsLib.lib
   FLAGS = -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview
   LINK_FLAGS = -Xlinker /subsystem:console
-  LINK_LIBRARIES = KeyHandlerLib.lib  ScreenHandlerLib.lib  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 -loldnames
+  LINK_LIBRARIES = KeyHandlerLib.lib  ScreenHandlerLib.lib  SettingsLib.lib  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 -loldnames
   OBJECT_DIR = CMakeFiles\TestExample.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
@@ -187,6 +221,8 @@ build KeyHandlerLib: phony KeyHandlerLib.lib
 
 build ScreenHandlerLib: phony ScreenHandlerLib.lib
 
+build SettingsLib: phony SettingsLib.lib
+
 build TestExample: phony TestExample.exe
 
 # =============================================================================
@@ -197,7 +233,7 @@ build TestExample: phony TestExample.exe
 #############################################
 # Folder: C:/Users/jacob/OneDrive/Documents/GitHub/Donk-By-Daylight/build
 
-build all: phony KeyHandlerLib.lib ScreenHandlerLib.lib TestExample.exe
+build all: phony KeyHandlerLib.lib ScreenHandlerLib.lib SettingsLib.lib TestExample.exe
 
 # =============================================================================
 # Built-in targets

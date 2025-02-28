@@ -17,7 +17,8 @@
 					[
 						0,
 						1,
-						2
+						2,
+						3
 					]
 				}
 			],
@@ -34,7 +35,8 @@
 					[
 						0,
 						1,
-						2
+						2,
+						3
 					]
 				}
 			],
@@ -56,8 +58,15 @@
 				},
 				{
 					"directoryIndex" : 0,
+					"id" : "SettingsLib::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-SettingsLib-Debug-56020dce4238a771621b.json",
+					"name" : "SettingsLib",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
 					"id" : "TestExample::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-TestExample-Debug-c350ed269b036a389ae8.json",
+					"jsonFile" : "target-TestExample-Debug-7ddb0507189ba489e163.json",
 					"name" : "TestExample",
 					"projectIndex" : 0
 				}

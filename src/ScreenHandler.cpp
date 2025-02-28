@@ -3,11 +3,12 @@ STORES A TARGET WINDOW AND SOME BASIC INFORMATION
 */
 
 #include "../include/shared/ScreenHandler.h"
+#include "../include/shared/Settings.h"
 
 ScreenHandler::ScreenHandler() {
     setWindowHeight(0);
     setWindowLength(0);
-    setWindowTarget("Dead By Daylight");
+    setWindowTarget(DBD_GLOBAL.windowTarget);
     setExist(initializeWindow());
 }
 

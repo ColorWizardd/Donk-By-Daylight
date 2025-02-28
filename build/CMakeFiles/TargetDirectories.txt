@@ -1,5 +1,6 @@
 C:/Users/jacob/OneDrive/Documents/GitHub/Donk-By-Daylight/build/CMakeFiles/KeyHandlerLib.dir
 C:/Users/jacob/OneDrive/Documents/GitHub/Donk-By-Daylight/build/CMakeFiles/ScreenHandlerLib.dir
+C:/Users/jacob/OneDrive/Documents/GitHub/Donk-By-Daylight/build/CMakeFiles/SettingsLib.dir
 C:/Users/jacob/OneDrive/Documents/GitHub/Donk-By-Daylight/build/CMakeFiles/TestExample.dir
 C:/Users/jacob/OneDrive/Documents/GitHub/Donk-By-Daylight/build/CMakeFiles/test.dir
 C:/Users/jacob/OneDrive/Documents/GitHub/Donk-By-Daylight/build/CMakeFiles/edit_cache.dir

@@ -3,9 +3,10 @@ KEYBOARD INPUT HANDLER USING WIN32 API
 */
 
 #include "../include/shared/KeyHandler.h"
+#include "../include/shared/Settings.h"
 
 KeyHandler::KeyHandler(){
-    setListenTarget(0x20);
+    setListenTarget(DBD_GLOBAL.actionKey);
 }
 
 KeyHandler::KeyHandler(int listenTarget){

@@ -13,6 +13,12 @@
 },
 {
   "directory": "C:/Users/jacob/OneDrive/Documents/GitHub/Donk-By-Daylight/build",
+  "command": "C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\Llvm\\bin\\clang.exe -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview -o CMakeFiles\\SettingsLib.dir\\src\\Settings.cpp.obj -c C:\\Users\\jacob\\OneDrive\\Documents\\GitHub\\Donk-By-Daylight\\src\\Settings.cpp",
+  "file": "C:\\Users\\jacob\\OneDrive\\Documents\\GitHub\\Donk-By-Daylight\\src\\Settings.cpp",
+  "output": "CMakeFiles\\SettingsLib.dir\\src\\Settings.cpp.obj"
+},
+{
+  "directory": "C:/Users/jacob/OneDrive/Documents/GitHub/Donk-By-Daylight/build",
   "command": "C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\Llvm\\bin\\clang.exe -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview -o CMakeFiles\\TestExample.dir\\src\\main.cpp.obj -c C:\\Users\\jacob\\OneDrive\\Documents\\GitHub\\Donk-By-Daylight\\src\\main.cpp",
   "file": "C:\\Users\\jacob\\OneDrive\\Documents\\GitHub\\Donk-By-Daylight\\src\\main.cpp",
   "output": "CMakeFiles\\TestExample.dir\\src\\main.cpp.obj"
