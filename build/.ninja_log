@@ -1,9 +1,12 @@
 # ninja log v5
-21	917	7624153976538081	CMakeFiles/TestExample.dir/src/main.cpp.obj	a3839852ec42f29c
+28	955	7624159315043706	CMakeFiles/TestExample.dir/src/main.cpp.obj	a3839852ec42f29c
 631	733	7624153113148079	KeyHandlerLib.lib	84419a157abeb6c4
 20	630	7624153112118636	CMakeFiles/KeyHandlerLib.dir/src/KeyHandler.cpp.obj	a82b8d1a65f418b1
-917	1046	7624153977747140	TestExample.exe	260e24336a2e20d3
-15	542	7624153972798023	CMakeFiles/ScreenHandlerLib.dir/src/ScreenHandler.cpp.obj	2d504b99917327e1
-543	638	7624153973683946	ScreenHandlerLib.lib	52e8b60a0d0a512f
-27	957	7624155574979503	CMakeFiles/TestExample.dir/src/main.cpp.obj	a3839852ec42f29c
-957	1102	7624155576198165	TestExample.exe	260e24336a2e20d3
+641	765	7624160011574900	TestExample.exe	260e24336a2e20d3
+7	544	7624160009448703	CMakeFiles/ScreenHandlerLib.dir/src/ScreenHandler.cpp.obj	2d504b99917327e1
+545	639	7624160010335604	ScreenHandlerLib.lib	52e8b60a0d0a512f
+23	939	7624160617768636	CMakeFiles/TestExample.dir/src/main.cpp.obj	a3839852ec42f29c
+940	1070	7624160618989901	TestExample.exe	260e24336a2e20d3
+6	605	7624161674909280	CMakeFiles/ScreenHandlerLib.dir/src/ScreenHandler.cpp.obj	2d504b99917327e1
+607	702	7624161675906742	ScreenHandlerLib.lib	52e8b60a0d0a512f
+702	827	7624161677110808	TestExample.exe	260e24336a2e20d3

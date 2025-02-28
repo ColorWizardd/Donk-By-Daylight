@@ -43,15 +43,15 @@ HWND ScreenHandler::getWindow() {
 }
 
 long ScreenHandler::getWindowLength(HWND window) const {
-    LPRECT context;
-    GetWindowRect(window, context);
-    return (context->right - context->left);
+    RECT context;
+    GetWindowRect(window, &context);
+    return (context.right - context.left);
 }
 
 long ScreenHandler::getWindowHeight(HWND window) const { 
-    LPRECT context;
-    GetWindowRect(window, context);
-    return (context->bottom - context->top);
+    RECT context;
+    GetWindowRect(window, &context);
+    return (context.bottom - context.top);
 }
 
 void ScreenHandler::setWindowLength(long length) {

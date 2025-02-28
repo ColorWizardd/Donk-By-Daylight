@@ -22,11 +22,11 @@ int main() {
     while(true) {
         if(SpaceCheck->getKeyState()) {
             std::cout << "SPACE PRESSED\n";
-            LPRECT windowRect;
+            RECT windowRect;
             if(ScreenCheck->getWindow() == NULL) {
                 std::cout << "IM GONNA KILL MYSELF'\n";
             }
-            else if(!GetWindowRect(ScreenCheck->getWindow(), windowRect)){
+            if(!GetWindowRect(ScreenCheck->getWindow(), &windowRect)){
                 std::cout << "I HATE RECTANGLES!!!!!\n";
             }
             else{
