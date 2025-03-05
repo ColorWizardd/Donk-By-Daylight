@@ -7,6 +7,10 @@ GLOBAL SETTINGS AND VARS
 
 struct Settings {
     const char *windowTarget;
+    const char *className;
+    int wRatio;
+    int hRatio;
+    const char *outFile;
     int actionKey;
 };
 

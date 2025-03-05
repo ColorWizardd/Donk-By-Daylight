@@ -34,7 +34,7 @@
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 15,
+				"line" : 17,
 				"parent" : 0
 			}
 		]
@@ -63,11 +63,11 @@
 		},
 		{
 			"backtrace" : 2,
-			"id" : "SettingsLib::@6890427a1f51a3e7e1df"
+			"id" : "KeyHandlerLib::@6890427a1f51a3e7e1df"
 		},
 		{
 			"backtrace" : 2,
-			"id" : "KeyHandlerLib::@6890427a1f51a3e7e1df"
+			"id" : "SettingsLib::@6890427a1f51a3e7e1df"
 		}
 	],
 	"id" : "TestExample::@6890427a1f51a3e7e1df",
