@@ -194,6 +194,30 @@ DonkByDaylight_IS_TOP_LEVEL:STATIC=ON
 //Value Computed by CMake
 DonkByDaylight_SOURCE_DIR:STATIC=C:/Users/Abdulla Mubarak/Documents/GitHub/Donk-By-Daylight
 
+//SW local deps dir.
+SW_DEPS_DIR:STRING=C:/Users/Abdulla Mubarak/Documents/GitHub/Donk-By-Daylight/build/.sw/cmake
+
+//SW local deps file.
+SW_DEPS_FILE:STRING=C:/Users/Abdulla Mubarak/Documents/GitHub/Donk-By-Daylight/build/.sw/cmake/sw.txt
+
+//The directory containing a CMake configuration file for SW.
+SW_DIR:PATH=C:/sw-setup/.sw/storage/etc/sw/static
+
+//Path to a program.
+SW_EXECUTABLE:FILEPATH=C:/sw-setup/.sw/sw.exe
+
+//The directory containing a CMake configuration file for Tesseract.
+Tesseract_DIR:PATH=Tesseract_DIR-NOTFOUND
+
+//The directory containing a CMake configuration file for sw.
+sw_DIR:PATH=C:/sw-setup/.sw/storage/etc/sw/static
+
+//The directory containing a CMake configuration file for tesseract:x64-windows.
+"tesseract:x64-windows_DIR":PATH=tesseract:x64-windows_DIR-NOTFOUND
+
+//The directory containing a CMake configuration file for tesseract.
+tesseract_DIR:PATH=tesseract_DIR-NOTFOUND
+
 
 ########################
 # INTERNAL cache entries
@@ -267,7 +291,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_MT
 CMAKE_MT-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=1
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=2
 //Platform information initialized
 CMAKE_PLATFORM_INFO_INITIALIZED:INTERNAL=1
 //noop for ranlib
@@ -313,4 +337,8 @@ CMAKE_STATIC_LINKER_FLAGS_RELEASE-ADVANCED:INTERNAL=1
 CMAKE_STATIC_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_VERBOSE_MAKEFILE
 CMAKE_VERBOSE_MAKEFILE-ADVANCED:INTERNAL=1
+//Details about finding SW
+FIND_PACKAGE_MESSAGE_DETAILS_SW:INTERNAL=[C:/sw-setup/.sw/sw.exe][v()]
+//ADVANCED property for variable: SW_EXECUTABLE
+SW_EXECUTABLE-ADVANCED:INTERNAL=1
 

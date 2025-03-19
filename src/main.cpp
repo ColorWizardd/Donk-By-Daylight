@@ -8,6 +8,8 @@ A COLORWIZARDD PROJECT
 #include "../include/shared/KeyHandler.h"
 #include "../include/shared/ScreenHandler.h"
 #include "../include/shared/Settings.h"
+#include <tesseract/baseapi.h>
+#include <allheaders.h>
 #include <iostream>
 #include <Windows.h>
 
