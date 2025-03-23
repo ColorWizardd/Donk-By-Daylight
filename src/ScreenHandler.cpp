@@ -4,24 +4,25 @@ STORES A TARGET WINDOW AND SOME BASIC INFORMATION
 
 #include "../include/shared/ScreenHandler.h"
 #include "../include/shared/Settings.h"
+#include <iostream>
 
 ScreenHandler::ScreenHandler() {
     setWindowHeight(0);
     setWindowLength(0);
     setWindowTarget(DBD_GLOBAL.windowTarget);
-    setExist(initializeWindow());
+    setExist(initializeWindow(DBD_GLOBAL.className));
 }
 
 ScreenHandler::ScreenHandler(const char *windowTarget) {
     setWindowHeight(0);
     setWindowLength(0);
     setWindowTarget(windowTarget);
-    setExist(initializeWindow());
+    setExist(initializeWindow(windowTarget));
 }
 
-bool ScreenHandler::initializeWindow() {
+bool ScreenHandler::initializeWindow(const char *target) {
     try{
-        HWND window = getWindow();
+        HWND window = getWindow(target);
         setWindowLength(getWindowLength(window));
         setWindowHeight(getWindowHeight(window));
         return true;
@@ -52,8 +53,8 @@ For now, only the window target seems to work.
 Looks like there's some obfsucation with how Unreal Engine loads or names windows.
 SIDE NOTE: I guess this will work with anything that uses Unreal Engine?
 */ 
-HWND ScreenHandler::getWindow() {
-    return FindWindowA(DBD_GLOBAL.className, NULL);
+HWND ScreenHandler::getWindow(const char* className) {
+    return FindWindowA(className, NULL);
 }
 
 long ScreenHandler::getWindowLength(HWND window) const {
@@ -190,7 +191,9 @@ bool ScreenHandler::screenshot(HWND window, RECT &testRect) {
     );
 
     if(hFile == INVALID_HANDLE_VALUE) {
-        MessageBoxA(window, "File handle not valid", NULL, MB_OK);
+        DWORD err = GetLastError();
+        std::cerr << "Error: " << err << '\n';
+        MessageBoxA(window, "File handle not valid.", NULL, MB_OK);
         LocalUnlock(hDIB);
         LocalFree(hDIB);
         CloseHandle(hFile);

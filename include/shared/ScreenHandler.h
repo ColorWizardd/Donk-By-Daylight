@@ -2,17 +2,18 @@
 #define SCREENHANDLER_H
 
 #include <windows.h>
+#include "./Settings.h"
 
 class ScreenHandler {
     public:
         ScreenHandler();
         ScreenHandler(const char *windowTarget);
-        bool initializeWindow();
+        bool initializeWindow(const char *target);
         const char* getWindowTarget() const;
         void setWindowTarget(const char *target);
         const char* getFileTarget() const;
         void setFileTarget(const char *target);
-        HWND getWindow();
+        HWND getWindow(const char* className);
         long getWindowLength(HWND window) const;
         long getWindowHeight(HWND window) const;
         void setWindowLength(long length);

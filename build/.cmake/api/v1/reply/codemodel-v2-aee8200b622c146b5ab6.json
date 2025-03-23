@@ -1,0 +1,472 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6
+					]
+				},
+				{
+					"build" : ".sw/cmake/cmake_bdir",
+					"jsonFile" : "directory-.sw.cmake.cmake_bdir-Debug-5b82ef916bde332d2e1d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "build/.sw/cmake"
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "DonkByDaylight",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ALL_BUILD-Debug-f51e18d8b9742f58b119.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "KeyHandlerLib::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-KeyHandlerLib-Debug-34cbc2bb9688329440cd.json",
+					"name" : "KeyHandlerLib",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ScreenHandlerLib::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ScreenHandlerLib-Debug-2e3d1a51ee786ac72e71.json",
+					"name" : "ScreenHandlerLib",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "SettingsLib::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-SettingsLib-Debug-6b6a1e18f8c248477d58.json",
+					"name" : "SettingsLib",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "TestExample::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-TestExample-Debug-2a473be082545471f7f3.json",
+					"name" : "TestExample",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ZERO_CHECK-Debug-e241d41f3169e43aabfc.json",
+					"name" : "ZERO_CHECK",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "sw_build_dependencies::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-sw_build_dependencies-Debug-e82c42aad328b0b0e8a1.json",
+					"name" : "sw_build_dependencies",
+					"projectIndex" : 0
+				}
+			]
+		},
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"jsonFile" : "directory-.-Release-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6
+					]
+				},
+				{
+					"build" : ".sw/cmake/cmake_bdir",
+					"jsonFile" : "directory-.sw.cmake.cmake_bdir-Release-5b82ef916bde332d2e1d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "build/.sw/cmake"
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "DonkByDaylight",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ALL_BUILD-Release-f51e18d8b9742f58b119.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "KeyHandlerLib::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-KeyHandlerLib-Release-5410fd8474e0267610a7.json",
+					"name" : "KeyHandlerLib",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ScreenHandlerLib::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ScreenHandlerLib-Release-55970426a00c6fad1b6a.json",
+					"name" : "ScreenHandlerLib",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "SettingsLib::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-SettingsLib-Release-05a7706302aa2272cab0.json",
+					"name" : "SettingsLib",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "TestExample::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-TestExample-Release-6b7dbe380be541877c6c.json",
+					"name" : "TestExample",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ZERO_CHECK-Release-e241d41f3169e43aabfc.json",
+					"name" : "ZERO_CHECK",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "sw_build_dependencies::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-sw_build_dependencies-Release-e82c42aad328b0b0e8a1.json",
+					"name" : "sw_build_dependencies",
+					"projectIndex" : 0
+				}
+			]
+		},
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"jsonFile" : "directory-.-MinSizeRel-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6
+					]
+				},
+				{
+					"build" : ".sw/cmake/cmake_bdir",
+					"jsonFile" : "directory-.sw.cmake.cmake_bdir-MinSizeRel-5b82ef916bde332d2e1d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "build/.sw/cmake"
+				}
+			],
+			"name" : "MinSizeRel",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "DonkByDaylight",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ALL_BUILD-MinSizeRel-f51e18d8b9742f58b119.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "KeyHandlerLib::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-KeyHandlerLib-MinSizeRel-76ae1aa2c752b7c9e6e8.json",
+					"name" : "KeyHandlerLib",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ScreenHandlerLib::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ScreenHandlerLib-MinSizeRel-9f537545d3344a47749b.json",
+					"name" : "ScreenHandlerLib",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "SettingsLib::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-SettingsLib-MinSizeRel-28c3139b25f1c837ae8b.json",
+					"name" : "SettingsLib",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "TestExample::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-TestExample-MinSizeRel-a50e7f9e9d6029c6c47a.json",
+					"name" : "TestExample",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ZERO_CHECK-MinSizeRel-e241d41f3169e43aabfc.json",
+					"name" : "ZERO_CHECK",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "sw_build_dependencies::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-sw_build_dependencies-MinSizeRel-e82c42aad328b0b0e8a1.json",
+					"name" : "sw_build_dependencies",
+					"projectIndex" : 0
+				}
+			]
+		},
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"jsonFile" : "directory-.-RelWithDebInfo-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6
+					]
+				},
+				{
+					"build" : ".sw/cmake/cmake_bdir",
+					"jsonFile" : "directory-.sw.cmake.cmake_bdir-RelWithDebInfo-5b82ef916bde332d2e1d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "build/.sw/cmake"
+				}
+			],
+			"name" : "RelWithDebInfo",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "DonkByDaylight",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ALL_BUILD-RelWithDebInfo-f51e18d8b9742f58b119.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "KeyHandlerLib::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-KeyHandlerLib-RelWithDebInfo-5e4d0d1ac5e7ba0e5be2.json",
+					"name" : "KeyHandlerLib",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ScreenHandlerLib::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ScreenHandlerLib-RelWithDebInfo-0df61e2c56046d8ef7c3.json",
+					"name" : "ScreenHandlerLib",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "SettingsLib::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-SettingsLib-RelWithDebInfo-525cffa71720c86571ed.json",
+					"name" : "SettingsLib",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "TestExample::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-TestExample-RelWithDebInfo-6ce7dc718a1b965fa0e4.json",
+					"name" : "TestExample",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ZERO_CHECK-RelWithDebInfo-e241d41f3169e43aabfc.json",
+					"name" : "ZERO_CHECK",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "sw_build_dependencies::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-sw_build_dependencies-RelWithDebInfo-e82c42aad328b0b0e8a1.json",
+					"name" : "sw_build_dependencies",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/Abdulla Mubarak/Documents/GitHub/Donk-By-Daylight/build",
+		"source" : "C:/Users/Abdulla Mubarak/Documents/GitHub/Donk-By-Daylight"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

@@ -3,16 +3,16 @@
 #
 
 # targets
-if (NOT TARGET org.sw.demo.google.tesseract.libtesseract-master)
-    add_library(org.sw.demo.google.tesseract.libtesseract-master SHARED IMPORTED GLOBAL)
+if (NOT TARGET org.sw.demo.google.tesseract.libtesseract-5.4.0)
+    add_library(org.sw.demo.google.tesseract.libtesseract-5.4.0 SHARED IMPORTED GLOBAL)
 
-    set_property(TARGET org.sw.demo.google.tesseract.libtesseract-master APPEND PROPERTY IMPORTED_CONFIGURATIONS DEBUG)
-    set_property(TARGET org.sw.demo.google.tesseract.libtesseract-master APPEND PROPERTY IMPORTED_CONFIGURATIONS MINSIZEREL)
-    set_property(TARGET org.sw.demo.google.tesseract.libtesseract-master APPEND PROPERTY IMPORTED_CONFIGURATIONS RELEASE)
-    set_property(TARGET org.sw.demo.google.tesseract.libtesseract-master APPEND PROPERTY IMPORTED_CONFIGURATIONS RELWITHDEBINFO)
+    set_property(TARGET org.sw.demo.google.tesseract.libtesseract-5.4.0 APPEND PROPERTY IMPORTED_CONFIGURATIONS DEBUG)
+    set_property(TARGET org.sw.demo.google.tesseract.libtesseract-5.4.0 APPEND PROPERTY IMPORTED_CONFIGURATIONS MINSIZEREL)
+    set_property(TARGET org.sw.demo.google.tesseract.libtesseract-5.4.0 APPEND PROPERTY IMPORTED_CONFIGURATIONS RELEASE)
+    set_property(TARGET org.sw.demo.google.tesseract.libtesseract-5.4.0 APPEND PROPERTY IMPORTED_CONFIGURATIONS RELWITHDEBINFO)
 
     if (SW_MULTI_CONFIG_GENERATOR)
-        target_compile_definitions(org.sw.demo.google.tesseract.libtesseract-master INTERFACE
+        target_compile_definitions(org.sw.demo.google.tesseract.libtesseract-5.4.0 INTERFACE
             $<$<CONFIG:Debug>: "TESS_API=SW_IMPORT" >
             $<$<CONFIG:Debug>: "HAVE_CONFIG_H" >
             $<$<CONFIG:Debug>: "HAVE_LIBARCHIVE" >
@@ -21,38 +21,38 @@ if (NOT TARGET org.sw.demo.google.tesseract.libtesseract-master)
             $<$<CONFIG:Debug>: "_SILENCE_STDEXT_HASH_DEPRECATION_WARNINGS=1" >
         )
         
-        target_include_directories(org.sw.demo.google.tesseract.libtesseract-master INTERFACE
-            $<$<CONFIG:Debug>: "C:/sw-setup/.sw/storage/pkg/1d/13/e4d8/src/sdir/include" >
-            $<$<CONFIG:Debug>: "C:/sw-setup/.sw/storage/pkg/1d/13/e4d8/obj/bld/380839/bd" >
+        target_include_directories(org.sw.demo.google.tesseract.libtesseract-5.4.0 INTERFACE
+            $<$<CONFIG:Debug>: "C:/sw-setup/.sw/storage/pkg/6e/74/f6f7/src/sdir/include" >
+            $<$<CONFIG:Debug>: "C:/sw-setup/.sw/storage/pkg/6e/74/f6f7/obj/bld/380839/bd" >
         )
         
-        target_link_libraries(org.sw.demo.google.tesseract.libtesseract-master INTERFACE
-            $<$<CONFIG:Debug>: "C:/sw-setup/.sw/storage/pkg/1d/13/e4d8/obj/bld/380839/lib/org.sw.demo.google.tesseract.libtesseract-master.lib" >
+        target_link_libraries(org.sw.demo.google.tesseract.libtesseract-5.4.0 INTERFACE
+            $<$<CONFIG:Debug>: "C:/sw-setup/.sw/storage/pkg/6e/74/f6f7/obj/bld/380839/lib/org.sw.demo.google.tesseract.libtesseract-5.4.0.lib" >
             $<$<CONFIG:Debug>: "WS2_32.LIB" >
         )
         
     else()
-        set_target_properties(org.sw.demo.google.tesseract.libtesseract-master PROPERTIES
+        set_target_properties(org.sw.demo.google.tesseract.libtesseract-5.4.0 PROPERTIES
             INTERFACE_COMPILE_DEFINITIONS "TESS_API=SW_IMPORT;HAVE_CONFIG_H;HAVE_LIBARCHIVE;SW_EXPORT=__declspec(dllexport);SW_IMPORT=__declspec(dllimport);_SILENCE_STDEXT_HASH_DEPRECATION_WARNINGS=1;"
         )
         
-        set_target_properties(org.sw.demo.google.tesseract.libtesseract-master PROPERTIES
-            INTERFACE_INCLUDE_DIRECTORIES "C:/sw-setup/.sw/storage/pkg/1d/13/e4d8/src/sdir/include;C:/sw-setup/.sw/storage/pkg/1d/13/e4d8/obj/bld/380839/bd;"
+        set_target_properties(org.sw.demo.google.tesseract.libtesseract-5.4.0 PROPERTIES
+            INTERFACE_INCLUDE_DIRECTORIES "C:/sw-setup/.sw/storage/pkg/6e/74/f6f7/src/sdir/include;C:/sw-setup/.sw/storage/pkg/6e/74/f6f7/obj/bld/380839/bd;"
         )
         
-        set_target_properties(org.sw.demo.google.tesseract.libtesseract-master PROPERTIES
-            INTERFACE_LINK_LIBRARIES "C:/sw-setup/.sw/storage/pkg/1d/13/e4d8/obj/bld/380839/lib/org.sw.demo.google.tesseract.libtesseract-master.lib;WS2_32.LIB;"
+        set_target_properties(org.sw.demo.google.tesseract.libtesseract-5.4.0 PROPERTIES
+            INTERFACE_LINK_LIBRARIES "C:/sw-setup/.sw/storage/pkg/6e/74/f6f7/obj/bld/380839/lib/org.sw.demo.google.tesseract.libtesseract-5.4.0.lib;WS2_32.LIB;"
         )
     endif()
 
-    set_target_properties(org.sw.demo.google.tesseract.libtesseract-master PROPERTIES
+    set_target_properties(org.sw.demo.google.tesseract.libtesseract-5.4.0 PROPERTIES
         IMPORTED_LINK_INTERFACE_LANGUAGES_DEBUG "C CXX"
-        IMPORTED_LOCATION_DEBUG "C:/sw-setup/.sw/storage/pkg/1d/13/e4d8/obj/bld/380839/bin/org.sw.demo.google.tesseract.libtesseract-master.dll"
-        IMPORTED_IMPLIB_DEBUG "C:/sw-setup/.sw/storage/pkg/1d/13/e4d8/obj/bld/380839/lib/org.sw.demo.google.tesseract.libtesseract-master.lib"
+        IMPORTED_LOCATION_DEBUG "C:/sw-setup/.sw/storage/pkg/6e/74/f6f7/obj/bld/380839/bin/org.sw.demo.google.tesseract.libtesseract-5.4.0.dll"
+        IMPORTED_IMPLIB_DEBUG "C:/sw-setup/.sw/storage/pkg/6e/74/f6f7/obj/bld/380839/lib/org.sw.demo.google.tesseract.libtesseract-5.4.0.lib"
     )
 
     if (SW_MULTI_CONFIG_GENERATOR)
-        target_compile_definitions(org.sw.demo.google.tesseract.libtesseract-master INTERFACE
+        target_compile_definitions(org.sw.demo.google.tesseract.libtesseract-5.4.0 INTERFACE
             $<$<CONFIG:Minsizerel>: "TESS_API=SW_IMPORT" >
             $<$<CONFIG:Minsizerel>: "HAVE_CONFIG_H" >
             $<$<CONFIG:Minsizerel>: "HAVE_LIBARCHIVE" >
@@ -61,38 +61,38 @@ if (NOT TARGET org.sw.demo.google.tesseract.libtesseract-master)
             $<$<CONFIG:Minsizerel>: "_SILENCE_STDEXT_HASH_DEPRECATION_WARNINGS=1" >
         )
         
-        target_include_directories(org.sw.demo.google.tesseract.libtesseract-master INTERFACE
-            $<$<CONFIG:Minsizerel>: "C:/sw-setup/.sw/storage/pkg/1d/13/e4d8/src/sdir/include" >
-            $<$<CONFIG:Minsizerel>: "C:/sw-setup/.sw/storage/pkg/1d/13/e4d8/obj/bld/858496/bd" >
+        target_include_directories(org.sw.demo.google.tesseract.libtesseract-5.4.0 INTERFACE
+            $<$<CONFIG:Minsizerel>: "C:/sw-setup/.sw/storage/pkg/6e/74/f6f7/src/sdir/include" >
+            $<$<CONFIG:Minsizerel>: "C:/sw-setup/.sw/storage/pkg/6e/74/f6f7/obj/bld/858496/bd" >
         )
         
-        target_link_libraries(org.sw.demo.google.tesseract.libtesseract-master INTERFACE
-            $<$<CONFIG:Minsizerel>: "C:/sw-setup/.sw/storage/pkg/1d/13/e4d8/obj/bld/858496/lib/org.sw.demo.google.tesseract.libtesseract-master.lib" >
+        target_link_libraries(org.sw.demo.google.tesseract.libtesseract-5.4.0 INTERFACE
+            $<$<CONFIG:Minsizerel>: "C:/sw-setup/.sw/storage/pkg/6e/74/f6f7/obj/bld/858496/lib/org.sw.demo.google.tesseract.libtesseract-5.4.0.lib" >
             $<$<CONFIG:Minsizerel>: "WS2_32.LIB" >
         )
         
     else()
-        set_target_properties(org.sw.demo.google.tesseract.libtesseract-master PROPERTIES
+        set_target_properties(org.sw.demo.google.tesseract.libtesseract-5.4.0 PROPERTIES
             INTERFACE_COMPILE_DEFINITIONS "TESS_API=SW_IMPORT;HAVE_CONFIG_H;HAVE_LIBARCHIVE;SW_EXPORT=__declspec(dllexport);SW_IMPORT=__declspec(dllimport);_SILENCE_STDEXT_HASH_DEPRECATION_WARNINGS=1;"
         )
         
-        set_target_properties(org.sw.demo.google.tesseract.libtesseract-master PROPERTIES
-            INTERFACE_INCLUDE_DIRECTORIES "C:/sw-setup/.sw/storage/pkg/1d/13/e4d8/src/sdir/include;C:/sw-setup/.sw/storage/pkg/1d/13/e4d8/obj/bld/858496/bd;"
+        set_target_properties(org.sw.demo.google.tesseract.libtesseract-5.4.0 PROPERTIES
+            INTERFACE_INCLUDE_DIRECTORIES "C:/sw-setup/.sw/storage/pkg/6e/74/f6f7/src/sdir/include;C:/sw-setup/.sw/storage/pkg/6e/74/f6f7/obj/bld/858496/bd;"
         )
         
-        set_target_properties(org.sw.demo.google.tesseract.libtesseract-master PROPERTIES
-            INTERFACE_LINK_LIBRARIES "C:/sw-setup/.sw/storage/pkg/1d/13/e4d8/obj/bld/858496/lib/org.sw.demo.google.tesseract.libtesseract-master.lib;WS2_32.LIB;"
+        set_target_properties(org.sw.demo.google.tesseract.libtesseract-5.4.0 PROPERTIES
+            INTERFACE_LINK_LIBRARIES "C:/sw-setup/.sw/storage/pkg/6e/74/f6f7/obj/bld/858496/lib/org.sw.demo.google.tesseract.libtesseract-5.4.0.lib;WS2_32.LIB;"
         )
     endif()
 
-    set_target_properties(org.sw.demo.google.tesseract.libtesseract-master PROPERTIES
+    set_target_properties(org.sw.demo.google.tesseract.libtesseract-5.4.0 PROPERTIES
         IMPORTED_LINK_INTERFACE_LANGUAGES_MINSIZEREL "C CXX"
-        IMPORTED_LOCATION_MINSIZEREL "C:/sw-setup/.sw/storage/pkg/1d/13/e4d8/obj/bld/858496/bin/org.sw.demo.google.tesseract.libtesseract-master.dll"
-        IMPORTED_IMPLIB_MINSIZEREL "C:/sw-setup/.sw/storage/pkg/1d/13/e4d8/obj/bld/858496/lib/org.sw.demo.google.tesseract.libtesseract-master.lib"
+        IMPORTED_LOCATION_MINSIZEREL "C:/sw-setup/.sw/storage/pkg/6e/74/f6f7/obj/bld/858496/bin/org.sw.demo.google.tesseract.libtesseract-5.4.0.dll"
+        IMPORTED_IMPLIB_MINSIZEREL "C:/sw-setup/.sw/storage/pkg/6e/74/f6f7/obj/bld/858496/lib/org.sw.demo.google.tesseract.libtesseract-5.4.0.lib"
     )
 
     if (SW_MULTI_CONFIG_GENERATOR)
-        target_compile_definitions(org.sw.demo.google.tesseract.libtesseract-master INTERFACE
+        target_compile_definitions(org.sw.demo.google.tesseract.libtesseract-5.4.0 INTERFACE
             $<$<CONFIG:Release>: "TESS_API=SW_IMPORT" >
             $<$<CONFIG:Release>: "HAVE_CONFIG_H" >
             $<$<CONFIG:Release>: "HAVE_LIBARCHIVE" >
@@ -101,38 +101,38 @@ if (NOT TARGET org.sw.demo.google.tesseract.libtesseract-master)
             $<$<CONFIG:Release>: "_SILENCE_STDEXT_HASH_DEPRECATION_WARNINGS=1" >
         )
         
-        target_include_directories(org.sw.demo.google.tesseract.libtesseract-master INTERFACE
-            $<$<CONFIG:Release>: "C:/sw-setup/.sw/storage/pkg/1d/13/e4d8/src/sdir/include" >
-            $<$<CONFIG:Release>: "C:/sw-setup/.sw/storage/pkg/1d/13/e4d8/obj/bld/101997/bd" >
+        target_include_directories(org.sw.demo.google.tesseract.libtesseract-5.4.0 INTERFACE
+            $<$<CONFIG:Release>: "C:/sw-setup/.sw/storage/pkg/6e/74/f6f7/src/sdir/include" >
+            $<$<CONFIG:Release>: "C:/sw-setup/.sw/storage/pkg/6e/74/f6f7/obj/bld/101997/bd" >
         )
         
-        target_link_libraries(org.sw.demo.google.tesseract.libtesseract-master INTERFACE
-            $<$<CONFIG:Release>: "C:/sw-setup/.sw/storage/pkg/1d/13/e4d8/obj/bld/101997/lib/org.sw.demo.google.tesseract.libtesseract-master.lib" >
+        target_link_libraries(org.sw.demo.google.tesseract.libtesseract-5.4.0 INTERFACE
+            $<$<CONFIG:Release>: "C:/sw-setup/.sw/storage/pkg/6e/74/f6f7/obj/bld/101997/lib/org.sw.demo.google.tesseract.libtesseract-5.4.0.lib" >
             $<$<CONFIG:Release>: "WS2_32.LIB" >
         )
         
     else()
-        set_target_properties(org.sw.demo.google.tesseract.libtesseract-master PROPERTIES
+        set_target_properties(org.sw.demo.google.tesseract.libtesseract-5.4.0 PROPERTIES
             INTERFACE_COMPILE_DEFINITIONS "TESS_API=SW_IMPORT;HAVE_CONFIG_H;HAVE_LIBARCHIVE;SW_EXPORT=__declspec(dllexport);SW_IMPORT=__declspec(dllimport);_SILENCE_STDEXT_HASH_DEPRECATION_WARNINGS=1;"
         )
         
-        set_target_properties(org.sw.demo.google.tesseract.libtesseract-master PROPERTIES
-            INTERFACE_INCLUDE_DIRECTORIES "C:/sw-setup/.sw/storage/pkg/1d/13/e4d8/src/sdir/include;C:/sw-setup/.sw/storage/pkg/1d/13/e4d8/obj/bld/101997/bd;"
+        set_target_properties(org.sw.demo.google.tesseract.libtesseract-5.4.0 PROPERTIES
+            INTERFACE_INCLUDE_DIRECTORIES "C:/sw-setup/.sw/storage/pkg/6e/74/f6f7/src/sdir/include;C:/sw-setup/.sw/storage/pkg/6e/74/f6f7/obj/bld/101997/bd;"
         )
         
-        set_target_properties(org.sw.demo.google.tesseract.libtesseract-master PROPERTIES
-            INTERFACE_LINK_LIBRARIES "C:/sw-setup/.sw/storage/pkg/1d/13/e4d8/obj/bld/101997/lib/org.sw.demo.google.tesseract.libtesseract-master.lib;WS2_32.LIB;"
+        set_target_properties(org.sw.demo.google.tesseract.libtesseract-5.4.0 PROPERTIES
+            INTERFACE_LINK_LIBRARIES "C:/sw-setup/.sw/storage/pkg/6e/74/f6f7/obj/bld/101997/lib/org.sw.demo.google.tesseract.libtesseract-5.4.0.lib;WS2_32.LIB;"
         )
     endif()
 
-    set_target_properties(org.sw.demo.google.tesseract.libtesseract-master PROPERTIES
+    set_target_properties(org.sw.demo.google.tesseract.libtesseract-5.4.0 PROPERTIES
         IMPORTED_LINK_INTERFACE_LANGUAGES_RELEASE "C CXX"
-        IMPORTED_LOCATION_RELEASE "C:/sw-setup/.sw/storage/pkg/1d/13/e4d8/obj/bld/101997/bin/org.sw.demo.google.tesseract.libtesseract-master.dll"
-        IMPORTED_IMPLIB_RELEASE "C:/sw-setup/.sw/storage/pkg/1d/13/e4d8/obj/bld/101997/lib/org.sw.demo.google.tesseract.libtesseract-master.lib"
+        IMPORTED_LOCATION_RELEASE "C:/sw-setup/.sw/storage/pkg/6e/74/f6f7/obj/bld/101997/bin/org.sw.demo.google.tesseract.libtesseract-5.4.0.dll"
+        IMPORTED_IMPLIB_RELEASE "C:/sw-setup/.sw/storage/pkg/6e/74/f6f7/obj/bld/101997/lib/org.sw.demo.google.tesseract.libtesseract-5.4.0.lib"
     )
 
     if (SW_MULTI_CONFIG_GENERATOR)
-        target_compile_definitions(org.sw.demo.google.tesseract.libtesseract-master INTERFACE
+        target_compile_definitions(org.sw.demo.google.tesseract.libtesseract-5.4.0 INTERFACE
             $<$<CONFIG:Relwithdebinfo>: "TESS_API=SW_IMPORT" >
             $<$<CONFIG:Relwithdebinfo>: "HAVE_CONFIG_H" >
             $<$<CONFIG:Relwithdebinfo>: "HAVE_LIBARCHIVE" >
@@ -141,37 +141,41 @@ if (NOT TARGET org.sw.demo.google.tesseract.libtesseract-master)
             $<$<CONFIG:Relwithdebinfo>: "_SILENCE_STDEXT_HASH_DEPRECATION_WARNINGS=1" >
         )
         
-        target_include_directories(org.sw.demo.google.tesseract.libtesseract-master INTERFACE
-            $<$<CONFIG:Relwithdebinfo>: "C:/sw-setup/.sw/storage/pkg/1d/13/e4d8/src/sdir/include" >
-            $<$<CONFIG:Relwithdebinfo>: "C:/sw-setup/.sw/storage/pkg/1d/13/e4d8/obj/bld/152718/bd" >
+        target_include_directories(org.sw.demo.google.tesseract.libtesseract-5.4.0 INTERFACE
+            $<$<CONFIG:Relwithdebinfo>: "C:/sw-setup/.sw/storage/pkg/6e/74/f6f7/src/sdir/include" >
+            $<$<CONFIG:Relwithdebinfo>: "C:/sw-setup/.sw/storage/pkg/6e/74/f6f7/obj/bld/152718/bd" >
         )
         
-        target_link_libraries(org.sw.demo.google.tesseract.libtesseract-master INTERFACE
-            $<$<CONFIG:Relwithdebinfo>: "C:/sw-setup/.sw/storage/pkg/1d/13/e4d8/obj/bld/152718/lib/org.sw.demo.google.tesseract.libtesseract-master.lib" >
+        target_link_libraries(org.sw.demo.google.tesseract.libtesseract-5.4.0 INTERFACE
+            $<$<CONFIG:Relwithdebinfo>: "C:/sw-setup/.sw/storage/pkg/6e/74/f6f7/obj/bld/152718/lib/org.sw.demo.google.tesseract.libtesseract-5.4.0.lib" >
             $<$<CONFIG:Relwithdebinfo>: "WS2_32.LIB" >
         )
         
     else()
-        set_target_properties(org.sw.demo.google.tesseract.libtesseract-master PROPERTIES
+        set_target_properties(org.sw.demo.google.tesseract.libtesseract-5.4.0 PROPERTIES
             INTERFACE_COMPILE_DEFINITIONS "TESS_API=SW_IMPORT;HAVE_CONFIG_H;HAVE_LIBARCHIVE;SW_EXPORT=__declspec(dllexport);SW_IMPORT=__declspec(dllimport);_SILENCE_STDEXT_HASH_DEPRECATION_WARNINGS=1;"
         )
         
-        set_target_properties(org.sw.demo.google.tesseract.libtesseract-master PROPERTIES
-            INTERFACE_INCLUDE_DIRECTORIES "C:/sw-setup/.sw/storage/pkg/1d/13/e4d8/src/sdir/include;C:/sw-setup/.sw/storage/pkg/1d/13/e4d8/obj/bld/152718/bd;"
+        set_target_properties(org.sw.demo.google.tesseract.libtesseract-5.4.0 PROPERTIES
+            INTERFACE_INCLUDE_DIRECTORIES "C:/sw-setup/.sw/storage/pkg/6e/74/f6f7/src/sdir/include;C:/sw-setup/.sw/storage/pkg/6e/74/f6f7/obj/bld/152718/bd;"
         )
         
-        set_target_properties(org.sw.demo.google.tesseract.libtesseract-master PROPERTIES
-            INTERFACE_LINK_LIBRARIES "C:/sw-setup/.sw/storage/pkg/1d/13/e4d8/obj/bld/152718/lib/org.sw.demo.google.tesseract.libtesseract-master.lib;WS2_32.LIB;"
+        set_target_properties(org.sw.demo.google.tesseract.libtesseract-5.4.0 PROPERTIES
+            INTERFACE_LINK_LIBRARIES "C:/sw-setup/.sw/storage/pkg/6e/74/f6f7/obj/bld/152718/lib/org.sw.demo.google.tesseract.libtesseract-5.4.0.lib;WS2_32.LIB;"
         )
     endif()
 
-    set_target_properties(org.sw.demo.google.tesseract.libtesseract-master PROPERTIES
+    set_target_properties(org.sw.demo.google.tesseract.libtesseract-5.4.0 PROPERTIES
         IMPORTED_LINK_INTERFACE_LANGUAGES_RELWITHDEBINFO "C CXX"
-        IMPORTED_LOCATION_RELWITHDEBINFO "C:/sw-setup/.sw/storage/pkg/1d/13/e4d8/obj/bld/152718/bin/org.sw.demo.google.tesseract.libtesseract-master.dll"
-        IMPORTED_IMPLIB_RELWITHDEBINFO "C:/sw-setup/.sw/storage/pkg/1d/13/e4d8/obj/bld/152718/lib/org.sw.demo.google.tesseract.libtesseract-master.lib"
+        IMPORTED_LOCATION_RELWITHDEBINFO "C:/sw-setup/.sw/storage/pkg/6e/74/f6f7/obj/bld/152718/bin/org.sw.demo.google.tesseract.libtesseract-5.4.0.dll"
+        IMPORTED_IMPLIB_RELWITHDEBINFO "C:/sw-setup/.sw/storage/pkg/6e/74/f6f7/obj/bld/152718/lib/org.sw.demo.google.tesseract.libtesseract-5.4.0.lib"
     )
 
-    add_dependencies(org.sw.demo.google.tesseract.libtesseract-master sw_build_dependencies)
+    add_dependencies(org.sw.demo.google.tesseract.libtesseract-5.4.0 sw_build_dependencies)
+
+    add_library(org.sw.demo.google.tesseract.libtesseract-5.4 ALIAS org.sw.demo.google.tesseract.libtesseract-5.4.0)
+    add_library(org.sw.demo.google.tesseract.libtesseract-5 ALIAS org.sw.demo.google.tesseract.libtesseract-5.4.0)
+    add_library(org.sw.demo.google.tesseract.libtesseract ALIAS org.sw.demo.google.tesseract.libtesseract-5.4.0)
 endif()
 
 if (NOT TARGET org.sw.demo.gnu.iconv.libcharset-1.18.1)
@@ -3622,8 +3626,8 @@ if (NOT TARGET org.sw.demo.gnu.iconv.libiconv-1.18.1)
 endif()
 
 # dependencies
-target_link_libraries(org.sw.demo.google.tesseract.libtesseract-master INTERFACE org.sw.demo.danbloomberg.leptonica-1.85.0)
-target_link_libraries(org.sw.demo.google.tesseract.libtesseract-master INTERFACE org.sw.demo.libarchive.libarchive-3.7.7)
+target_link_libraries(org.sw.demo.google.tesseract.libtesseract-5.4.0 INTERFACE org.sw.demo.danbloomberg.leptonica-1.85.0)
+target_link_libraries(org.sw.demo.google.tesseract.libtesseract-5.4.0 INTERFACE org.sw.demo.libarchive.libarchive-3.7.7)
 target_link_libraries(org.sw.demo.libarchive.libarchive-3.7.7 INTERFACE org.sw.demo.bzip2-1.0.8)
 target_link_libraries(org.sw.demo.libarchive.libarchive-3.7.7 INTERFACE org.sw.demo.gnu.nettle.nettle-3.10.0)
 target_link_libraries(org.sw.demo.libarchive.libarchive-3.7.7 INTERFACE org.sw.demo.lz4-1.10.0)
