@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : ".sw/cmake/cmake_bdir",
+		"source" : "build/.sw/cmake"
+	}
+}

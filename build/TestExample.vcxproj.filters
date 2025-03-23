@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\Abdulla Mubarak\Documents\GitHub\Donk-By-Daylight\src\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Abdulla Mubarak\Documents\GitHub\Donk-By-Daylight\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{0E911214-56DA-3BB9-8A83-296484A678B1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

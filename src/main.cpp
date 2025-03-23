@@ -8,6 +8,8 @@ A COLORWIZARDD PROJECT
 #include "../include/shared/KeyHandler.h"
 #include "../include/shared/ScreenHandler.h"
 #include "../include/shared/Settings.h"
+#include <tesseract/baseapi.h>
+#include <allheaders.h>
 #include <iostream>
 #include <Windows.h>
 
@@ -31,18 +33,62 @@ A COLORWIZARDD PROJECT
 //     return TRUE;
 // }
 
+
+
+
+class TessLib {
+    public:
+    // Static method for returning text from image
+    static void processText(char *txt) {
+        tesseract::TessBaseAPI *api = new tesseract::TessBaseAPI();
+        if(api->Init(NULL, "eng")) {
+            std::cout << "ERROR: Could not initialize tesseract\n";
+            return;
+        }
+
+        if(txt != nullptr) {
+            delete[] txt;
+        }
+
+        Pix *img = pixRead(DBD_GLOBAL.outFile);
+        api->SetImage(img);
+        char *imgText = api->GetUTF8Text();
+
+        txt = imgText;
+        api->End();
+        delete api;
+        delete[] imgText;
+        pixDestroy(&img);
+        return;
+    }
+    // Static method for matching text to given range of options
+    
+
+};
+
+const char* outFile = DBD_GLOBAL.outFile;
+
 // Basic keypress test
 int main() {
     KeyHandler* SpaceCheck = new KeyHandler();
-    ScreenHandler* ScreenCheck = new ScreenHandler("DeadByDaylight-Win64-Shipping");
+    ScreenHandler* ScreenCheck = new ScreenHandler("MozillaWindowClass");
     const int sleepTime = 1000;
     const int screenshotDelay = 500;
+
+    // TESSERACT TEST
+
+    // char *txt = nullptr;
+
+    // TessLib::processText(txt);
+
+    // std::cout << "Result: " << txt << '\n';
+
 
     // std::cout << "Enmumerating windows..." << std::endl;
     // EnumWindows(enumWindowCallback, NULL);
     // // std::cin.ignore();
 
-    if(!ScreenCheck->initializeWindow()) {
+    if(!ScreenCheck->initializeWindow(DBD_GLOBAL.className)) {
         std::cout << "THIS AINT WORKING CHIEF... \n";
     }
 
@@ -51,7 +97,7 @@ int main() {
             std::cout << "SPACE PRESSED\n";
             RECT windowRect;
             RECT outRect;
-            HWND currScreen = ScreenCheck->getWindow();
+            HWND currScreen = ScreenCheck->getWindow(DBD_GLOBAL.className);
             if(currScreen == NULL) {
                 std::cout << "IM GONNA KILL MYSELF\n";
             }
