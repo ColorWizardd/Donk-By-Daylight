@@ -1,9 +1,9 @@
-C:/Users/Abdulla Mubarak/Documents/GitHub/Donk-By-Daylight/build/CMakeFiles/sw_build_dependencies.dir
-C:/Users/Abdulla Mubarak/Documents/GitHub/Donk-By-Daylight/build/CMakeFiles/KeyHandlerLib.dir
-C:/Users/Abdulla Mubarak/Documents/GitHub/Donk-By-Daylight/build/CMakeFiles/ScreenHandlerLib.dir
-C:/Users/Abdulla Mubarak/Documents/GitHub/Donk-By-Daylight/build/CMakeFiles/SettingsLib.dir
-C:/Users/Abdulla Mubarak/Documents/GitHub/Donk-By-Daylight/build/CMakeFiles/TestExample.dir
-C:/Users/Abdulla Mubarak/Documents/GitHub/Donk-By-Daylight/build/CMakeFiles/RUN_TESTS.dir
-C:/Users/Abdulla Mubarak/Documents/GitHub/Donk-By-Daylight/build/CMakeFiles/ALL_BUILD.dir
-C:/Users/Abdulla Mubarak/Documents/GitHub/Donk-By-Daylight/build/CMakeFiles/ZERO_CHECK.dir
-C:/Users/Abdulla Mubarak/Documents/GitHub/Donk-By-Daylight/build/.sw/cmake/cmake_bdir/CMakeFiles/RUN_TESTS.dir
+C:/Users/jacob/OneDrive/Documents/GitHub/Donk-By-Daylight/build/CMakeFiles/KeyHandlerLib.dir
+C:/Users/jacob/OneDrive/Documents/GitHub/Donk-By-Daylight/build/CMakeFiles/ScreenHandlerLib.dir
+C:/Users/jacob/OneDrive/Documents/GitHub/Donk-By-Daylight/build/CMakeFiles/SettingsLib.dir
+C:/Users/jacob/OneDrive/Documents/GitHub/Donk-By-Daylight/build/CMakeFiles/copy_tessdata.dir
+C:/Users/jacob/OneDrive/Documents/GitHub/Donk-By-Daylight/build/CMakeFiles/TestExample.dir
+C:/Users/jacob/OneDrive/Documents/GitHub/Donk-By-Daylight/build/CMakeFiles/RUN_TESTS.dir
+C:/Users/jacob/OneDrive/Documents/GitHub/Donk-By-Daylight/build/CMakeFiles/INSTALL.dir
+C:/Users/jacob/OneDrive/Documents/GitHub/Donk-By-Daylight/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/jacob/OneDrive/Documents/GitHub/Donk-By-Daylight/build/CMakeFiles/ZERO_CHECK.dir

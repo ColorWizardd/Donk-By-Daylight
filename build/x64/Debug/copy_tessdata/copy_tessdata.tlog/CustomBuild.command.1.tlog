@@ -1,0 +1,20 @@
+^C:\USERS\JACOB\ONEDRIVE\DOCUMENTS\GITHUB\DONK-BY-DAYLIGHT\BUILD\CMAKEFILES\1176A2B394D8DBD4BFD83743DC90C9FF\COPY_TESSDATA.RULE
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E copy_directory C:/Users/jacob/OneDrive/Documents/GitHub/Donk-By-Daylight/tessdata C:/Users/jacob/OneDrive/Documents/GitHub/Donk-By-Daylight/build/tessdata
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\JACOB\ONEDRIVE\DOCUMENTS\GITHUB\DONK-BY-DAYLIGHT\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/jacob/OneDrive/Documents/GitHub/Donk-By-Daylight -BC:/Users/jacob/OneDrive/Documents/GitHub/Donk-By-Daylight/build --check-stamp-file C:/Users/jacob/OneDrive/Documents/GitHub/Donk-By-Daylight/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

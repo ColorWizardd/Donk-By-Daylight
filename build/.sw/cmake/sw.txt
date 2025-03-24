@@ -1,1 +1,0 @@
-org.sw.demo.google.tesseract.libtesseract-5.4.0

@@ -1,0 +1,176 @@
+{
+  "$schema": "https://raw.githubusercontent.com/spdx/spdx-spec/v2.2.1/schemas/spdx-schema.json",
+  "spdxVersion": "SPDX-2.2",
+  "dataLicense": "CC0-1.0",
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "documentNamespace": "https://spdx.org/spdxdocs/tesseract-x64-windows-5.5.0#1-e2b7b64a-e74c-44a3-b578-b358161758c1",
+  "name": "tesseract:x64-windows@5.5.0#1 6432de02aabf432083312ba4fd814bd016d325d970abd78b56c7401552f0c415",
+  "creationInfo": {
+    "creators": [
+      "Tool: vcpkg-2025-03-13-7699e411ea11543de6abc0c7d5fd11cfe0039ae5"
+    ],
+    "created": "2025-03-23T23:09:57Z"
+  },
+  "relationships": [
+    {
+      "spdxElementId": "SPDXRef-port",
+      "relationshipType": "GENERATES",
+      "relatedSpdxElement": "SPDXRef-binary"
+    },
+    {
+      "spdxElementId": "SPDXRef-port",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-file-0"
+    },
+    {
+      "spdxElementId": "SPDXRef-port",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-file-1"
+    },
+    {
+      "spdxElementId": "SPDXRef-port",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-file-2"
+    },
+    {
+      "spdxElementId": "SPDXRef-port",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-file-3"
+    },
+    {
+      "spdxElementId": "SPDXRef-port",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-file-4"
+    },
+    {
+      "spdxElementId": "SPDXRef-binary",
+      "relationshipType": "GENERATED_FROM",
+      "relatedSpdxElement": "SPDXRef-port"
+    },
+    {
+      "spdxElementId": "SPDXRef-file-0",
+      "relationshipType": "CONTAINED_BY",
+      "relatedSpdxElement": "SPDXRef-port"
+    },
+    {
+      "spdxElementId": "SPDXRef-file-1",
+      "relationshipType": "CONTAINED_BY",
+      "relatedSpdxElement": "SPDXRef-port"
+    },
+    {
+      "spdxElementId": "SPDXRef-file-2",
+      "relationshipType": "CONTAINED_BY",
+      "relatedSpdxElement": "SPDXRef-port"
+    },
+    {
+      "spdxElementId": "SPDXRef-file-3",
+      "relationshipType": "CONTAINED_BY",
+      "relatedSpdxElement": "SPDXRef-port"
+    },
+    {
+      "spdxElementId": "SPDXRef-file-4",
+      "relationshipType": "CONTAINED_BY",
+      "relatedSpdxElement": "SPDXRef-port"
+    }
+  ],
+  "packages": [
+    {
+      "name": "tesseract",
+      "SPDXID": "SPDXRef-port",
+      "versionInfo": "5.5.0#1",
+      "downloadLocation": "git+https://github.com/microsoft/vcpkg@3037e2bd6bed856d03266bdfa59f67884896f29c",
+      "homepage": "https://github.com/tesseract-ocr/tesseract",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "description": "An OCR Engine that was developed at HP Labs between 1985 and 1995... and now at Google.",
+      "comment": "This is the port (recipe) consumed by vcpkg."
+    },
+    {
+      "name": "tesseract:x64-windows",
+      "SPDXID": "SPDXRef-binary",
+      "versionInfo": "6432de02aabf432083312ba4fd814bd016d325d970abd78b56c7401552f0c415",
+      "downloadLocation": "NONE",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "comment": "This is a binary package built by vcpkg."
+    },
+    {
+      "SPDXID": "SPDXRef-resource-0",
+      "name": "tesseract-ocr/tesseract",
+      "downloadLocation": "git+https://github.com/tesseract-ocr/tesseract@5.5.0",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "SHA512",
+          "checksumValue": "206e7da2d28a6271217ff384b482aa45a50beee0c53327aa4fd3da7082dce83386c8b7600194cbc30282134013b6182a1bed9d128ed6378f2957d0b8d1770b2d"
+        }
+      ]
+    }
+  ],
+  "files": [
+    {
+      "fileName": "./C:/Users/jacob/AppData/Local/vcpkg/registries/git-trees/3037e2bd6bed856d03266bdfa59f67884896f29c/fix-link-include-path.patch",
+      "SPDXID": "SPDXRef-file-0",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "208f18ab819f3c6a555b36addcbe63c1050243b77875ee5d9ef37ce8655d83e9"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./C:/Users/jacob/AppData/Local/vcpkg/registries/git-trees/3037e2bd6bed856d03266bdfa59f67884896f29c/fix_static_link_icu.patch",
+      "SPDXID": "SPDXRef-file-1",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "4fb72d7dd5bf2ff5b7b19dee37f107ffbdcaf8e75fca595f11fd2adad0549795"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./C:/Users/jacob/AppData/Local/vcpkg/registries/git-trees/3037e2bd6bed856d03266bdfa59f67884896f29c/portfile.cmake",
+      "SPDXID": "SPDXRef-file-2",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "6479f2af724eb2fcee1cadde0fa47aed5af985f94cac2cdf42f332f7b8b2d60f"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./C:/Users/jacob/AppData/Local/vcpkg/registries/git-trees/3037e2bd6bed856d03266bdfa59f67884896f29c/target-curl.diff",
+      "SPDXID": "SPDXRef-file-3",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "da8dd8bb2c34ac768130b59af21de161d040f6905bd15394e34c68614b551320"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./C:/Users/jacob/AppData/Local/vcpkg/registries/git-trees/3037e2bd6bed856d03266bdfa59f67884896f29c/vcpkg.json",
+      "SPDXID": "SPDXRef-file-4",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "f34452ea70986cde7b5c735e90332159fa213aa39dc3494041e76965b30ff7f6"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "copyrightText": "NOASSERTION"
+    }
+  ]
+}
