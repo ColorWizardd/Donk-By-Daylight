@@ -1,0 +1,412 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-ec8ed7744affe784cfa1.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "DonkByDaylight",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ALL_BUILD-Debug-18a282bb5c29f7b6ade2.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "KeyHandlerLib::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-KeyHandlerLib-Debug-3240a7c4768ab0662f4b.json",
+					"name" : "KeyHandlerLib",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ScreenHandlerLib::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ScreenHandlerLib-Debug-6184a686beb44437eae2.json",
+					"name" : "ScreenHandlerLib",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "SettingsLib::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-SettingsLib-Debug-80b132912f2a878d594c.json",
+					"name" : "SettingsLib",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "TestExample::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-TestExample-Debug-d1c938203b6bdd3a2580.json",
+					"name" : "TestExample",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ZERO_CHECK-Debug-33278c56f0e86f20f2b3.json",
+					"name" : "ZERO_CHECK",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "copy_tessdata::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-copy_tessdata-Debug-eef3b51a69dd7af7deab.json",
+					"name" : "copy_tessdata",
+					"projectIndex" : 0
+				}
+			]
+		},
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-ec8ed7744affe784cfa1.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "DonkByDaylight",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ALL_BUILD-Release-18a282bb5c29f7b6ade2.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "KeyHandlerLib::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-KeyHandlerLib-Release-5693501be92995626df9.json",
+					"name" : "KeyHandlerLib",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ScreenHandlerLib::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ScreenHandlerLib-Release-e2c8538c01ed9d604943.json",
+					"name" : "ScreenHandlerLib",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "SettingsLib::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-SettingsLib-Release-50f241c771a8a76379a8.json",
+					"name" : "SettingsLib",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "TestExample::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-TestExample-Release-80bf3cb974535713419d.json",
+					"name" : "TestExample",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ZERO_CHECK-Release-33278c56f0e86f20f2b3.json",
+					"name" : "ZERO_CHECK",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "copy_tessdata::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-copy_tessdata-Release-eef3b51a69dd7af7deab.json",
+					"name" : "copy_tessdata",
+					"projectIndex" : 0
+				}
+			]
+		},
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-MinSizeRel-ec8ed7744affe784cfa1.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6
+					]
+				}
+			],
+			"name" : "MinSizeRel",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "DonkByDaylight",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ALL_BUILD-MinSizeRel-18a282bb5c29f7b6ade2.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "KeyHandlerLib::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-KeyHandlerLib-MinSizeRel-7ecd8bd7564a815cdc68.json",
+					"name" : "KeyHandlerLib",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ScreenHandlerLib::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ScreenHandlerLib-MinSizeRel-223a9041ab5ab256f5d8.json",
+					"name" : "ScreenHandlerLib",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "SettingsLib::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-SettingsLib-MinSizeRel-e6a788104a7ae8feccaa.json",
+					"name" : "SettingsLib",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "TestExample::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-TestExample-MinSizeRel-edf062d234f2204fd7d3.json",
+					"name" : "TestExample",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ZERO_CHECK-MinSizeRel-33278c56f0e86f20f2b3.json",
+					"name" : "ZERO_CHECK",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "copy_tessdata::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-copy_tessdata-MinSizeRel-eef3b51a69dd7af7deab.json",
+					"name" : "copy_tessdata",
+					"projectIndex" : 0
+				}
+			]
+		},
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-RelWithDebInfo-ec8ed7744affe784cfa1.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6
+					]
+				}
+			],
+			"name" : "RelWithDebInfo",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "DonkByDaylight",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ALL_BUILD-RelWithDebInfo-18a282bb5c29f7b6ade2.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "KeyHandlerLib::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-KeyHandlerLib-RelWithDebInfo-0951be786afbd1e5aa7c.json",
+					"name" : "KeyHandlerLib",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ScreenHandlerLib::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ScreenHandlerLib-RelWithDebInfo-40b330d6d5fe6a414ea1.json",
+					"name" : "ScreenHandlerLib",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "SettingsLib::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-SettingsLib-RelWithDebInfo-e4766c6fcb9683f15a0b.json",
+					"name" : "SettingsLib",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "TestExample::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-TestExample-RelWithDebInfo-c609787a760b3ca65b05.json",
+					"name" : "TestExample",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ZERO_CHECK-RelWithDebInfo-33278c56f0e86f20f2b3.json",
+					"name" : "ZERO_CHECK",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "copy_tessdata::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-copy_tessdata-RelWithDebInfo-eef3b51a69dd7af7deab.json",
+					"name" : "copy_tessdata",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/jacob/OneDrive/Documents/GitHub/Donk-By-Daylight/build",
+		"source" : "C:/Users/jacob/OneDrive/Documents/GitHub/Donk-By-Daylight"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 8
+	}
+}
