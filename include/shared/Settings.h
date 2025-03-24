@@ -12,6 +12,7 @@ struct Settings {
     int hRatio;
     const char *outFile;
     int actionKey;
+    const char *langData;
 };
 
 extern Settings DBD_GLOBAL;
