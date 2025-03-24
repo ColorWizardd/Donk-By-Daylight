@@ -17,9 +17,6 @@
 //Path to a program.
 CMAKE_AR:FILEPATH=C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/VC/Tools/MSVC/14.29.30133/bin/Hostx64/x64/lib.exe
 
-//No help, variable specified on the command line.
-CMAKE_BUILD_TYPE:STRING=Debug
-
 //Semicolon separated list of supported configuration types, only
 // supports Debug, Release, MinSizeRel, and RelWithDebInfo, anything
 // else will be ignored.
@@ -191,15 +188,6 @@ CMAKE_VERBOSE_MAKEFILE:BOOL=FALSE
 //The directory containing a CMake configuration file for CURL.
 CURL_DIR:PATH=C:/Users/jacob/OneDrive/Documents/GitHub/Donk-By-Daylight/vcpkg_installed/x64-windows/share/curl
 
-//Path to a file.
-CURL_INCLUDE_DIR:PATH=CURL_INCLUDE_DIR-NOTFOUND
-
-//Path to a library.
-CURL_LIBRARY_DEBUG:FILEPATH=CURL_LIBRARY_DEBUG-NOTFOUND
-
-//Path to a library.
-CURL_LIBRARY_RELEASE:FILEPATH=CURL_LIBRARY_RELEASE-NOTFOUND
-
 //Value Computed by CMake
 DonkByDaylight_BINARY_DIR:STATIC=C:/Users/jacob/OneDrive/Documents/GitHub/Donk-By-Daylight/build
 
@@ -227,20 +215,8 @@ PKG_CONFIG_ARGN:STRING=
 //pkg-config executable
 PKG_CONFIG_EXECUTABLE:FILEPATH=PKG_CONFIG_EXECUTABLE-NOTFOUND
 
-//The directory containing a CMake configuration file for Tesseract.
-Tesseract_DIR:PATH=C:/Users/jacob/OneDrive/Documents/GitHub/Donk-By-Daylight/vcpkg_installed/x64-windows/share/tesseract
-
 //The directory containing a CMake configuration file for WebP.
 WebP_DIR:PATH=C:/Users/jacob/OneDrive/Documents/GitHub/Donk-By-Daylight/vcpkg_installed/x64-windows/share/WebP
-
-//Path to a file.
-ZLIB_INCLUDE_DIR:PATH=ZLIB_INCLUDE_DIR-NOTFOUND
-
-//Path to a library.
-ZLIB_LIBRARY_DEBUG:FILEPATH=ZLIB_LIBRARY_DEBUG-NOTFOUND
-
-//Path to a library.
-ZLIB_LIBRARY_RELEASE:FILEPATH=ZLIB_LIBRARY_RELEASE-NOTFOUND
 
 //Path to a library.
 _vcpkg_libwebp_LIBRARY_DEBUG:FILEPATH=C:/Users/jacob/OneDrive/Documents/GitHub/Donk-By-Daylight/vcpkg_installed/x64-windows/debug/lib/libwebp.lib
@@ -399,12 +375,6 @@ CMAKE_STATIC_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 CMAKE_VERBOSE_MAKEFILE-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CURL_DIR
 CURL_DIR-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: CURL_INCLUDE_DIR
-CURL_INCLUDE_DIR-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: CURL_LIBRARY_DEBUG
-CURL_LIBRARY_DEBUG-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: CURL_LIBRARY_RELEASE
-CURL_LIBRARY_RELEASE-ADVANCED:INTERNAL=1
 //Details about finding CURL
 FIND_PACKAGE_MESSAGE_DETAILS_CURL:INTERNAL=[C:/Users/jacob/OneDrive/Documents/GitHub/Donk-By-Daylight/vcpkg_installed/x64-windows/share/curl/CURLConfig.cmake][c ][v8.12.1-DEV()]
 //Details about finding LibArchive
@@ -419,12 +389,6 @@ LibArchive_LIBRARY-ADVANCED:INTERNAL=1
 PKG_CONFIG_ARGN-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: PKG_CONFIG_EXECUTABLE
 PKG_CONFIG_EXECUTABLE-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: ZLIB_INCLUDE_DIR
-ZLIB_INCLUDE_DIR-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: ZLIB_LIBRARY_DEBUG
-ZLIB_LIBRARY_DEBUG-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: ZLIB_LIBRARY_RELEASE
-ZLIB_LIBRARY_RELEASE-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: _vcpkg_libwebp_LIBRARY_DEBUG
 _vcpkg_libwebp_LIBRARY_DEBUG-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: _vcpkg_libwebp_LIBRARY_RELEASE

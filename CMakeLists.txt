@@ -13,7 +13,7 @@ set(CMAKE_CXX_STANDARD 17)
 #    org.sw.demo.google.tesseract.libtesseract-5.4.0
 #)
 
-list(APPEND CMAKE_MODULE_PATH ${CMAKE_CURRENT_SOURCE_DIR}/vcpkg_installed/x64-windows/share)
+list(APPEND CMAKE_PREFIX_PATH ${CMAKE_CURRENT_SOURCE_DIR}/vcpkg_installed/x64-windows/share)
 set(CURL_LIBRARY vcpkg_installed/x64-windows/lib)
 set(CURL_INCLUDE_DIR vcpkg_installed/x64-windows/share/curl)
 set(Tesseract_DIR vcpkg_installed/x64-windows/share/tesseract)

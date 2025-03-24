@@ -26,7 +26,7 @@ events:
       Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
       Copyright (C) Microsoft Corporation. All rights reserved.
       
-      Build started 3/23/2025 5:34:40 PM.
+      Build started 3/24/2025 3:37:31 PM.
       Project "C:\\Users\\jacob\\OneDrive\\Documents\\GitHub\\Donk-By-Daylight\\build\\CMakeFiles\\3.30.5-msvc23\\CompilerIdCXX\\CompilerIdCXX.vcxproj" on node 1 (default targets).
       PrepareForBuild:
         Creating directory "Debug\\".
@@ -63,7 +63,7 @@ events:
           0 Warning(s)
           0 Error(s)
       
-      Time Elapsed 00:00:02.97
+      Time Elapsed 00:00:02.45
       
       
       Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
@@ -82,8 +82,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "C:/Users/jacob/OneDrive/Documents/GitHub/Donk-By-Daylight/build/CMakeFiles/CMakeScratch/TryCompile-dvrbho"
-      binary: "C:/Users/jacob/OneDrive/Documents/GitHub/Donk-By-Daylight/build/CMakeFiles/CMakeScratch/TryCompile-dvrbho"
+      source: "C:/Users/jacob/OneDrive/Documents/GitHub/Donk-By-Daylight/build/CMakeFiles/CMakeScratch/TryCompile-c14v1b"
+      binary: "C:/Users/jacob/OneDrive/Documents/GitHub/Donk-By-Daylight/build/CMakeFiles/CMakeScratch/TryCompile-c14v1b"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /EHsc"
       CMAKE_CXX_FLAGS_DEBUG: "/Ob0 /Od /RTC1"
@@ -93,50 +93,50 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/jacob/OneDrive/Documents/GitHub/Donk-By-Daylight/build/CMakeFiles/CMakeScratch/TryCompile-dvrbho'
+        Change Dir: 'C:/Users/jacob/OneDrive/Documents/GitHub/Donk-By-Daylight/build/CMakeFiles/CMakeScratch/TryCompile-c14v1b'
         
-        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/MSBuild/Current/Bin/MSBuild.exe" cmTC_92493.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/MSBuild/Current/Bin/MSBuild.exe" cmTC_e51c2.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
         Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
         Copyright (C) Microsoft Corporation. All rights reserved.
         
-        Build started 3/23/2025 5:34:44 PM.
-        Project "C:\\Users\\jacob\\OneDrive\\Documents\\GitHub\\Donk-By-Daylight\\build\\CMakeFiles\\CMakeScratch\\TryCompile-dvrbho\\cmTC_92493.vcxproj" on node 1 (default targets).
+        Build started 3/24/2025 3:37:33 PM.
+        Project "C:\\Users\\jacob\\OneDrive\\Documents\\GitHub\\Donk-By-Daylight\\build\\CMakeFiles\\CMakeScratch\\TryCompile-c14v1b\\cmTC_e51c2.vcxproj" on node 1 (default targets).
         PrepareForBuild:
-          Creating directory "cmTC_92493.dir\\Debug\\".
-          Creating directory "C:\\Users\\jacob\\OneDrive\\Documents\\GitHub\\Donk-By-Daylight\\build\\CMakeFiles\\CMakeScratch\\TryCompile-dvrbho\\Debug\\".
-          Creating directory "cmTC_92493.dir\\Debug\\cmTC_92493.tlog\\".
+          Creating directory "cmTC_e51c2.dir\\Debug\\".
+          Creating directory "C:\\Users\\jacob\\OneDrive\\Documents\\GitHub\\Donk-By-Daylight\\build\\CMakeFiles\\CMakeScratch\\TryCompile-c14v1b\\Debug\\".
+          Creating directory "cmTC_e51c2.dir\\Debug\\cmTC_e51c2.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_92493.dir\\Debug\\cmTC_92493.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Creating "cmTC_e51c2.dir\\Debug\\cmTC_e51c2.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
         VcpkgTripletSelection:
           Using triplet "x64-windows" from "C:\\tools\\vcpkg\\installed\\x64-windows\\"
           Using normalized configuration "Debug"
         VcpkgCheckManifestRoot:
           The vcpkg manifest was disabled, but we found a manifest file in C:\\Users\\jacob\\OneDrive\\Documents\\GitHub\\Donk-By-Daylight\\. You may want to enable vcpkg manifests in your properties page or pass /p:VcpkgEnableManifest=true to the msbuild invocation.
         ClCompile:
-          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /I"C:\\tools\\vcpkg\\installed\\x64-windows\\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_92493.dir\\Debug\\\\" /Fd"cmTC_92493.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-3.30\\Modules\\CMakeCXXCompilerABI.cpp"
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /I"C:\\tools\\vcpkg\\installed\\x64-windows\\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_e51c2.dir\\Debug\\\\" /Fd"cmTC_e51c2.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-3.30\\Modules\\CMakeCXXCompilerABI.cpp"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30159 for x64
           Copyright (C) Microsoft Corporation.  All rights reserved.
           CMakeCXXCompilerABI.cpp
-          cl /c /I"C:\\tools\\vcpkg\\installed\\x64-windows\\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_92493.dir\\Debug\\\\" /Fd"cmTC_92493.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-3.30\\Modules\\CMakeCXXCompilerABI.cpp"
+          cl /c /I"C:\\tools\\vcpkg\\installed\\x64-windows\\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_e51c2.dir\\Debug\\\\" /Fd"cmTC_e51c2.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-3.30\\Modules\\CMakeCXXCompilerABI.cpp"
         Link:
-          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\jacob\\OneDrive\\Documents\\GitHub\\Donk-By-Daylight\\build\\CMakeFiles\\CMakeScratch\\TryCompile-dvrbho\\Debug\\cmTC_92493.exe" /INCREMENTAL /ILK:"cmTC_92493.dir\\Debug\\cmTC_92493.ilk" /NOLOGO /LIBPATH:"C:\\tools\\vcpkg\\installed\\x64-windows\\debug\\lib" /LIBPATH:"C:\\tools\\vcpkg\\installed\\x64-windows\\debug\\lib\\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "C:\\tools\\vcpkg\\installed\\x64-windows\\debug\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/jacob/OneDrive/Documents/GitHub/Donk-By-Daylight/build/CMakeFiles/CMakeScratch/TryCompile-dvrbho/Debug/cmTC_92493.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/jacob/OneDrive/Documents/GitHub/Donk-By-Daylight/build/CMakeFiles/CMakeScratch/TryCompile-dvrbho/Debug/cmTC_92493.lib" /MACHINE:X64  /machine:x64 cmTC_92493.dir\\Debug\\CMakeCXXCompilerABI.obj
-          cmTC_92493.vcxproj -> C:\\Users\\jacob\\OneDrive\\Documents\\GitHub\\Donk-By-Daylight\\build\\CMakeFiles\\CMakeScratch\\TryCompile-dvrbho\\Debug\\cmTC_92493.exe
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\jacob\\OneDrive\\Documents\\GitHub\\Donk-By-Daylight\\build\\CMakeFiles\\CMakeScratch\\TryCompile-c14v1b\\Debug\\cmTC_e51c2.exe" /INCREMENTAL /ILK:"cmTC_e51c2.dir\\Debug\\cmTC_e51c2.ilk" /NOLOGO /LIBPATH:"C:\\tools\\vcpkg\\installed\\x64-windows\\debug\\lib" /LIBPATH:"C:\\tools\\vcpkg\\installed\\x64-windows\\debug\\lib\\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "C:\\tools\\vcpkg\\installed\\x64-windows\\debug\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/jacob/OneDrive/Documents/GitHub/Donk-By-Daylight/build/CMakeFiles/CMakeScratch/TryCompile-c14v1b/Debug/cmTC_e51c2.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/jacob/OneDrive/Documents/GitHub/Donk-By-Daylight/build/CMakeFiles/CMakeScratch/TryCompile-c14v1b/Debug/cmTC_e51c2.lib" /MACHINE:X64  /machine:x64 cmTC_e51c2.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_e51c2.vcxproj -> C:\\Users\\jacob\\OneDrive\\Documents\\GitHub\\Donk-By-Daylight\\build\\CMakeFiles\\CMakeScratch\\TryCompile-c14v1b\\Debug\\cmTC_e51c2.exe
         AppLocalFromInstalled:
-          pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\tools\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\jacob\\OneDrive\\Documents\\GitHub\\Donk-By-Daylight\\build\\CMakeFiles\\CMakeScratch\\TryCompile-dvrbho\\Debug\\cmTC_92493.exe" "C:\\tools\\vcpkg\\installed\\x64-windows\\debug\\bin" "cmTC_92493.dir\\Debug\\cmTC_92493.tlog\\cmTC_92493.write.1u.tlog" "cmTC_92493.dir\\Debug\\vcpkg.applocal.log"
+          pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\tools\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\jacob\\OneDrive\\Documents\\GitHub\\Donk-By-Daylight\\build\\CMakeFiles\\CMakeScratch\\TryCompile-c14v1b\\Debug\\cmTC_e51c2.exe" "C:\\tools\\vcpkg\\installed\\x64-windows\\debug\\bin" "cmTC_e51c2.dir\\Debug\\cmTC_e51c2.tlog\\cmTC_e51c2.write.1u.tlog" "cmTC_e51c2.dir\\Debug\\vcpkg.applocal.log"
           'pwsh.exe' is not recognized as an internal or external command,
           operable program or batch file.
-          The command "pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\tools\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\jacob\\OneDrive\\Documents\\GitHub\\Donk-By-Daylight\\build\\CMakeFiles\\CMakeScratch\\TryCompile-dvrbho\\Debug\\cmTC_92493.exe" "C:\\tools\\vcpkg\\installed\\x64-windows\\debug\\bin" "cmTC_92493.dir\\Debug\\cmTC_92493.tlog\\cmTC_92493.write.1u.tlog" "cmTC_92493.dir\\Debug\\vcpkg.applocal.log"" exited with code 9009.
-          "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -ExecutionPolicy Bypass -noprofile -File "C:\\tools\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\jacob\\OneDrive\\Documents\\GitHub\\Donk-By-Daylight\\build\\CMakeFiles\\CMakeScratch\\TryCompile-dvrbho\\Debug\\cmTC_92493.exe" "C:\\tools\\vcpkg\\installed\\x64-windows\\debug\\bin" "cmTC_92493.dir\\Debug\\cmTC_92493.tlog\\cmTC_92493.write.1u.tlog" "cmTC_92493.dir\\Debug\\vcpkg.applocal.log"
+          The command "pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\tools\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\jacob\\OneDrive\\Documents\\GitHub\\Donk-By-Daylight\\build\\CMakeFiles\\CMakeScratch\\TryCompile-c14v1b\\Debug\\cmTC_e51c2.exe" "C:\\tools\\vcpkg\\installed\\x64-windows\\debug\\bin" "cmTC_e51c2.dir\\Debug\\cmTC_e51c2.tlog\\cmTC_e51c2.write.1u.tlog" "cmTC_e51c2.dir\\Debug\\vcpkg.applocal.log"" exited with code 9009.
+          "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -ExecutionPolicy Bypass -noprofile -File "C:\\tools\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\jacob\\OneDrive\\Documents\\GitHub\\Donk-By-Daylight\\build\\CMakeFiles\\CMakeScratch\\TryCompile-c14v1b\\Debug\\cmTC_e51c2.exe" "C:\\tools\\vcpkg\\installed\\x64-windows\\debug\\bin" "cmTC_e51c2.dir\\Debug\\cmTC_e51c2.tlog\\cmTC_e51c2.write.1u.tlog" "cmTC_e51c2.dir\\Debug\\vcpkg.applocal.log"
         FinalizeBuildStatus:
-          Deleting file "cmTC_92493.dir\\Debug\\cmTC_92493.tlog\\unsuccessfulbuild".
-          Touching "cmTC_92493.dir\\Debug\\cmTC_92493.tlog\\cmTC_92493.lastbuildstate".
-        Done Building Project "C:\\Users\\jacob\\OneDrive\\Documents\\GitHub\\Donk-By-Daylight\\build\\CMakeFiles\\CMakeScratch\\TryCompile-dvrbho\\cmTC_92493.vcxproj" (default targets).
+          Deleting file "cmTC_e51c2.dir\\Debug\\cmTC_e51c2.tlog\\unsuccessfulbuild".
+          Touching "cmTC_e51c2.dir\\Debug\\cmTC_e51c2.tlog\\cmTC_e51c2.lastbuildstate".
+        Done Building Project "C:\\Users\\jacob\\OneDrive\\Documents\\GitHub\\Donk-By-Daylight\\build\\CMakeFiles\\CMakeScratch\\TryCompile-c14v1b\\cmTC_e51c2.vcxproj" (default targets).
         
         Build succeeded.
             0 Warning(s)
             0 Error(s)
         
-        Time Elapsed 00:00:01.58
+        Time Elapsed 00:00:01.51
         
       exitCode: 0
   -
@@ -184,12 +184,12 @@ events:
       - "vcpkg_installed/x64-windows/share/leptonica/LeptonicaConfig.cmake:29 (find_dependency)"
       - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
       - "vcpkg_installed/x64-windows/share/tesseract/TesseractConfig.cmake:25 (find_dependency)"
-      - "CMakeLists.txt:23 (find_package)"
+      - "CMakeLists.txt:28 (find_package)"
     checks:
       - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
     directories:
-      source: "C:/Users/jacob/OneDrive/Documents/GitHub/Donk-By-Daylight/build/CMakeFiles/CMakeScratch/TryCompile-89il22"
-      binary: "C:/Users/jacob/OneDrive/Documents/GitHub/Donk-By-Daylight/build/CMakeFiles/CMakeScratch/TryCompile-89il22"
+      source: "C:/Users/jacob/OneDrive/Documents/GitHub/Donk-By-Daylight/build/CMakeFiles/CMakeScratch/TryCompile-j5l5ge"
+      binary: "C:/Users/jacob/OneDrive/Documents/GitHub/Donk-By-Daylight/build/CMakeFiles/CMakeScratch/TryCompile-j5l5ge"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /EHsc"
       CMAKE_CXX_FLAGS_DEBUG: "/Ob0 /Od /RTC1"
@@ -198,44 +198,44 @@ events:
       variable: "CMAKE_HAVE_LIBC_PTHREAD"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/jacob/OneDrive/Documents/GitHub/Donk-By-Daylight/build/CMakeFiles/CMakeScratch/TryCompile-89il22'
+        Change Dir: 'C:/Users/jacob/OneDrive/Documents/GitHub/Donk-By-Daylight/build/CMakeFiles/CMakeScratch/TryCompile-j5l5ge'
         
-        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/MSBuild/Current/Bin/MSBuild.exe" cmTC_0820d.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/MSBuild/Current/Bin/MSBuild.exe" cmTC_c8b58.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
         Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
         Copyright (C) Microsoft Corporation. All rights reserved.
         
-        Build started 3/23/2025 6:13:41 PM.
-        Project "C:\\Users\\jacob\\OneDrive\\Documents\\GitHub\\Donk-By-Daylight\\build\\CMakeFiles\\CMakeScratch\\TryCompile-89il22\\cmTC_0820d.vcxproj" on node 1 (default targets).
+        Build started 3/24/2025 3:39:01 PM.
+        Project "C:\\Users\\jacob\\OneDrive\\Documents\\GitHub\\Donk-By-Daylight\\build\\CMakeFiles\\CMakeScratch\\TryCompile-j5l5ge\\cmTC_c8b58.vcxproj" on node 1 (default targets).
         PrepareForBuild:
-          Creating directory "cmTC_0820d.dir\\Debug\\".
-          Creating directory "C:\\Users\\jacob\\OneDrive\\Documents\\GitHub\\Donk-By-Daylight\\build\\CMakeFiles\\CMakeScratch\\TryCompile-89il22\\Debug\\".
-          Creating directory "cmTC_0820d.dir\\Debug\\cmTC_0820d.tlog\\".
+          Creating directory "cmTC_c8b58.dir\\Debug\\".
+          Creating directory "C:\\Users\\jacob\\OneDrive\\Documents\\GitHub\\Donk-By-Daylight\\build\\CMakeFiles\\CMakeScratch\\TryCompile-j5l5ge\\Debug\\".
+          Creating directory "cmTC_c8b58.dir\\Debug\\cmTC_c8b58.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_0820d.dir\\Debug\\cmTC_0820d.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Creating "cmTC_c8b58.dir\\Debug\\cmTC_c8b58.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
         VcpkgTripletSelection:
           Using triplet "x64-windows" from "C:\\tools\\vcpkg\\installed\\x64-windows\\"
           Using normalized configuration "Debug"
         VcpkgCheckManifestRoot:
           The vcpkg manifest was disabled, but we found a manifest file in C:\\Users\\jacob\\OneDrive\\Documents\\GitHub\\Donk-By-Daylight\\. You may want to enable vcpkg manifests in your properties page or pass /p:VcpkgEnableManifest=true to the msbuild invocation.
         ClCompile:
-          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /I"C:\\tools\\vcpkg\\installed\\x64-windows\\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c++17 /Fo"cmTC_0820d.dir\\Debug\\\\" /Fd"cmTC_0820d.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Users\\jacob\\OneDrive\\Documents\\GitHub\\Donk-By-Daylight\\build\\CMakeFiles\\CMakeScratch\\TryCompile-89il22\\src.cxx"
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /I"C:\\tools\\vcpkg\\installed\\x64-windows\\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c++17 /Fo"cmTC_c8b58.dir\\Debug\\\\" /Fd"cmTC_c8b58.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Users\\jacob\\OneDrive\\Documents\\GitHub\\Donk-By-Daylight\\build\\CMakeFiles\\CMakeScratch\\TryCompile-j5l5ge\\src.cxx"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30159 for x64
           Copyright (C) Microsoft Corporation.  All rights reserved.
           src.cxx
-          cl /c /I"C:\\tools\\vcpkg\\installed\\x64-windows\\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c++17 /Fo"cmTC_0820d.dir\\Debug\\\\" /Fd"cmTC_0820d.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Users\\jacob\\OneDrive\\Documents\\GitHub\\Donk-By-Daylight\\build\\CMakeFiles\\CMakeScratch\\TryCompile-89il22\\src.cxx"
-        C:\\Users\\jacob\\OneDrive\\Documents\\GitHub\\Donk-By-Daylight\\build\\CMakeFiles\\CMakeScratch\\TryCompile-89il22\\src.cxx(1,10): fatal error C1083: Cannot open include file: 'pthread.h': No such file or directory [C:\\Users\\jacob\\OneDrive\\Documents\\GitHub\\Donk-By-Daylight\\build\\CMakeFiles\\CMakeScratch\\TryCompile-89il22\\cmTC_0820d.vcxproj]
-        Done Building Project "C:\\Users\\jacob\\OneDrive\\Documents\\GitHub\\Donk-By-Daylight\\build\\CMakeFiles\\CMakeScratch\\TryCompile-89il22\\cmTC_0820d.vcxproj" (default targets) -- FAILED.
+          cl /c /I"C:\\tools\\vcpkg\\installed\\x64-windows\\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c++17 /Fo"cmTC_c8b58.dir\\Debug\\\\" /Fd"cmTC_c8b58.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Users\\jacob\\OneDrive\\Documents\\GitHub\\Donk-By-Daylight\\build\\CMakeFiles\\CMakeScratch\\TryCompile-j5l5ge\\src.cxx"
+        C:\\Users\\jacob\\OneDrive\\Documents\\GitHub\\Donk-By-Daylight\\build\\CMakeFiles\\CMakeScratch\\TryCompile-j5l5ge\\src.cxx(1,10): fatal error C1083: Cannot open include file: 'pthread.h': No such file or directory [C:\\Users\\jacob\\OneDrive\\Documents\\GitHub\\Donk-By-Daylight\\build\\CMakeFiles\\CMakeScratch\\TryCompile-j5l5ge\\cmTC_c8b58.vcxproj]
+        Done Building Project "C:\\Users\\jacob\\OneDrive\\Documents\\GitHub\\Donk-By-Daylight\\build\\CMakeFiles\\CMakeScratch\\TryCompile-j5l5ge\\cmTC_c8b58.vcxproj" (default targets) -- FAILED.
         
         Build FAILED.
         
-        "C:\\Users\\jacob\\OneDrive\\Documents\\GitHub\\Donk-By-Daylight\\build\\CMakeFiles\\CMakeScratch\\TryCompile-89il22\\cmTC_0820d.vcxproj" (default target) (1) ->
+        "C:\\Users\\jacob\\OneDrive\\Documents\\GitHub\\Donk-By-Daylight\\build\\CMakeFiles\\CMakeScratch\\TryCompile-j5l5ge\\cmTC_c8b58.vcxproj" (default target) (1) ->
         (ClCompile target) -> 
-          C:\\Users\\jacob\\OneDrive\\Documents\\GitHub\\Donk-By-Daylight\\build\\CMakeFiles\\CMakeScratch\\TryCompile-89il22\\src.cxx(1,10): fatal error C1083: Cannot open include file: 'pthread.h': No such file or directory [C:\\Users\\jacob\\OneDrive\\Documents\\GitHub\\Donk-By-Daylight\\build\\CMakeFiles\\CMakeScratch\\TryCompile-89il22\\cmTC_0820d.vcxproj]
+          C:\\Users\\jacob\\OneDrive\\Documents\\GitHub\\Donk-By-Daylight\\build\\CMakeFiles\\CMakeScratch\\TryCompile-j5l5ge\\src.cxx(1,10): fatal error C1083: Cannot open include file: 'pthread.h': No such file or directory [C:\\Users\\jacob\\OneDrive\\Documents\\GitHub\\Donk-By-Daylight\\build\\CMakeFiles\\CMakeScratch\\TryCompile-j5l5ge\\cmTC_c8b58.vcxproj]
         
             0 Warning(s)
             1 Error(s)
         
-        Time Elapsed 00:00:00.60
+        Time Elapsed 00:00:00.52
         
       exitCode: 1
   -
@@ -250,12 +250,12 @@ events:
       - "vcpkg_installed/x64-windows/share/leptonica/LeptonicaConfig.cmake:29 (find_dependency)"
       - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
       - "vcpkg_installed/x64-windows/share/tesseract/TesseractConfig.cmake:25 (find_dependency)"
-      - "CMakeLists.txt:23 (find_package)"
+      - "CMakeLists.txt:28 (find_package)"
     checks:
       - "Looking for pthread_create in pthreads"
     directories:
-      source: "C:/Users/jacob/OneDrive/Documents/GitHub/Donk-By-Daylight/build/CMakeFiles/CMakeScratch/TryCompile-mhs43x"
-      binary: "C:/Users/jacob/OneDrive/Documents/GitHub/Donk-By-Daylight/build/CMakeFiles/CMakeScratch/TryCompile-mhs43x"
+      source: "C:/Users/jacob/OneDrive/Documents/GitHub/Donk-By-Daylight/build/CMakeFiles/CMakeScratch/TryCompile-kiplc4"
+      binary: "C:/Users/jacob/OneDrive/Documents/GitHub/Donk-By-Daylight/build/CMakeFiles/CMakeScratch/TryCompile-kiplc4"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /EHsc"
       CMAKE_CXX_FLAGS_DEBUG: "/Ob0 /Od /RTC1"
@@ -264,46 +264,46 @@ events:
       variable: "CMAKE_HAVE_PTHREADS_CREATE"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/jacob/OneDrive/Documents/GitHub/Donk-By-Daylight/build/CMakeFiles/CMakeScratch/TryCompile-mhs43x'
+        Change Dir: 'C:/Users/jacob/OneDrive/Documents/GitHub/Donk-By-Daylight/build/CMakeFiles/CMakeScratch/TryCompile-kiplc4'
         
-        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/MSBuild/Current/Bin/MSBuild.exe" cmTC_7e0dc.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/MSBuild/Current/Bin/MSBuild.exe" cmTC_8bb57.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
         Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
         Copyright (C) Microsoft Corporation. All rights reserved.
         
-        Build started 3/23/2025 6:13:42 PM.
-        Project "C:\\Users\\jacob\\OneDrive\\Documents\\GitHub\\Donk-By-Daylight\\build\\CMakeFiles\\CMakeScratch\\TryCompile-mhs43x\\cmTC_7e0dc.vcxproj" on node 1 (default targets).
+        Build started 3/24/2025 3:39:02 PM.
+        Project "C:\\Users\\jacob\\OneDrive\\Documents\\GitHub\\Donk-By-Daylight\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kiplc4\\cmTC_8bb57.vcxproj" on node 1 (default targets).
         PrepareForBuild:
-          Creating directory "cmTC_7e0dc.dir\\Debug\\".
-          Creating directory "C:\\Users\\jacob\\OneDrive\\Documents\\GitHub\\Donk-By-Daylight\\build\\CMakeFiles\\CMakeScratch\\TryCompile-mhs43x\\Debug\\".
-          Creating directory "cmTC_7e0dc.dir\\Debug\\cmTC_7e0dc.tlog\\".
+          Creating directory "cmTC_8bb57.dir\\Debug\\".
+          Creating directory "C:\\Users\\jacob\\OneDrive\\Documents\\GitHub\\Donk-By-Daylight\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kiplc4\\Debug\\".
+          Creating directory "cmTC_8bb57.dir\\Debug\\cmTC_8bb57.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_7e0dc.dir\\Debug\\cmTC_7e0dc.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Creating "cmTC_8bb57.dir\\Debug\\cmTC_8bb57.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
         VcpkgTripletSelection:
           Using triplet "x64-windows" from "C:\\tools\\vcpkg\\installed\\x64-windows\\"
           Using normalized configuration "Debug"
         VcpkgCheckManifestRoot:
           The vcpkg manifest was disabled, but we found a manifest file in C:\\Users\\jacob\\OneDrive\\Documents\\GitHub\\Donk-By-Daylight\\. You may want to enable vcpkg manifests in your properties page or pass /p:VcpkgEnableManifest=true to the msbuild invocation.
         ClCompile:
-          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /I"C:\\tools\\vcpkg\\installed\\x64-windows\\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c++17 /Fo"cmTC_7e0dc.dir\\Debug\\\\" /Fd"cmTC_7e0dc.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Users\\jacob\\OneDrive\\Documents\\GitHub\\Donk-By-Daylight\\build\\CMakeFiles\\CMakeScratch\\TryCompile-mhs43x\\CheckFunctionExists.cxx"
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /I"C:\\tools\\vcpkg\\installed\\x64-windows\\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c++17 /Fo"cmTC_8bb57.dir\\Debug\\\\" /Fd"cmTC_8bb57.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Users\\jacob\\OneDrive\\Documents\\GitHub\\Donk-By-Daylight\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kiplc4\\CheckFunctionExists.cxx"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30159 for x64
           Copyright (C) Microsoft Corporation.  All rights reserved.
           CheckFunctionExists.cxx
-          cl /c /I"C:\\tools\\vcpkg\\installed\\x64-windows\\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c++17 /Fo"cmTC_7e0dc.dir\\Debug\\\\" /Fd"cmTC_7e0dc.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Users\\jacob\\OneDrive\\Documents\\GitHub\\Donk-By-Daylight\\build\\CMakeFiles\\CMakeScratch\\TryCompile-mhs43x\\CheckFunctionExists.cxx"
+          cl /c /I"C:\\tools\\vcpkg\\installed\\x64-windows\\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c++17 /Fo"cmTC_8bb57.dir\\Debug\\\\" /Fd"cmTC_8bb57.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Users\\jacob\\OneDrive\\Documents\\GitHub\\Donk-By-Daylight\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kiplc4\\CheckFunctionExists.cxx"
         Link:
-          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\jacob\\OneDrive\\Documents\\GitHub\\Donk-By-Daylight\\build\\CMakeFiles\\CMakeScratch\\TryCompile-mhs43x\\Debug\\cmTC_7e0dc.exe" /INCREMENTAL /ILK:"cmTC_7e0dc.dir\\Debug\\cmTC_7e0dc.ilk" /NOLOGO /LIBPATH:"C:\\tools\\vcpkg\\installed\\x64-windows\\debug\\lib" /LIBPATH:"C:\\tools\\vcpkg\\installed\\x64-windows\\debug\\lib\\manual-link" pthreads.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "C:\\tools\\vcpkg\\installed\\x64-windows\\debug\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/jacob/OneDrive/Documents/GitHub/Donk-By-Daylight/build/CMakeFiles/CMakeScratch/TryCompile-mhs43x/Debug/cmTC_7e0dc.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/jacob/OneDrive/Documents/GitHub/Donk-By-Daylight/build/CMakeFiles/CMakeScratch/TryCompile-mhs43x/Debug/cmTC_7e0dc.lib" /MACHINE:X64  /machine:x64 cmTC_7e0dc.dir\\Debug\\CheckFunctionExists.obj
-        LINK : fatal error LNK1104: cannot open file 'pthreads.lib' [C:\\Users\\jacob\\OneDrive\\Documents\\GitHub\\Donk-By-Daylight\\build\\CMakeFiles\\CMakeScratch\\TryCompile-mhs43x\\cmTC_7e0dc.vcxproj]
-        Done Building Project "C:\\Users\\jacob\\OneDrive\\Documents\\GitHub\\Donk-By-Daylight\\build\\CMakeFiles\\CMakeScratch\\TryCompile-mhs43x\\cmTC_7e0dc.vcxproj" (default targets) -- FAILED.
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\jacob\\OneDrive\\Documents\\GitHub\\Donk-By-Daylight\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kiplc4\\Debug\\cmTC_8bb57.exe" /INCREMENTAL /ILK:"cmTC_8bb57.dir\\Debug\\cmTC_8bb57.ilk" /NOLOGO /LIBPATH:"C:\\tools\\vcpkg\\installed\\x64-windows\\debug\\lib" /LIBPATH:"C:\\tools\\vcpkg\\installed\\x64-windows\\debug\\lib\\manual-link" pthreads.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "C:\\tools\\vcpkg\\installed\\x64-windows\\debug\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/jacob/OneDrive/Documents/GitHub/Donk-By-Daylight/build/CMakeFiles/CMakeScratch/TryCompile-kiplc4/Debug/cmTC_8bb57.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/jacob/OneDrive/Documents/GitHub/Donk-By-Daylight/build/CMakeFiles/CMakeScratch/TryCompile-kiplc4/Debug/cmTC_8bb57.lib" /MACHINE:X64  /machine:x64 cmTC_8bb57.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: cannot open file 'pthreads.lib' [C:\\Users\\jacob\\OneDrive\\Documents\\GitHub\\Donk-By-Daylight\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kiplc4\\cmTC_8bb57.vcxproj]
+        Done Building Project "C:\\Users\\jacob\\OneDrive\\Documents\\GitHub\\Donk-By-Daylight\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kiplc4\\cmTC_8bb57.vcxproj" (default targets) -- FAILED.
         
         Build FAILED.
         
-        "C:\\Users\\jacob\\OneDrive\\Documents\\GitHub\\Donk-By-Daylight\\build\\CMakeFiles\\CMakeScratch\\TryCompile-mhs43x\\cmTC_7e0dc.vcxproj" (default target) (1) ->
+        "C:\\Users\\jacob\\OneDrive\\Documents\\GitHub\\Donk-By-Daylight\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kiplc4\\cmTC_8bb57.vcxproj" (default target) (1) ->
         (Link target) -> 
-          LINK : fatal error LNK1104: cannot open file 'pthreads.lib' [C:\\Users\\jacob\\OneDrive\\Documents\\GitHub\\Donk-By-Daylight\\build\\CMakeFiles\\CMakeScratch\\TryCompile-mhs43x\\cmTC_7e0dc.vcxproj]
+          LINK : fatal error LNK1104: cannot open file 'pthreads.lib' [C:\\Users\\jacob\\OneDrive\\Documents\\GitHub\\Donk-By-Daylight\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kiplc4\\cmTC_8bb57.vcxproj]
         
             0 Warning(s)
             1 Error(s)
         
-        Time Elapsed 00:00:00.48
+        Time Elapsed 00:00:00.45
         
       exitCode: 1
   -
@@ -318,12 +318,12 @@ events:
       - "vcpkg_installed/x64-windows/share/leptonica/LeptonicaConfig.cmake:29 (find_dependency)"
       - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
       - "vcpkg_installed/x64-windows/share/tesseract/TesseractConfig.cmake:25 (find_dependency)"
-      - "CMakeLists.txt:23 (find_package)"
+      - "CMakeLists.txt:28 (find_package)"
     checks:
       - "Looking for pthread_create in pthread"
     directories:
-      source: "C:/Users/jacob/OneDrive/Documents/GitHub/Donk-By-Daylight/build/CMakeFiles/CMakeScratch/TryCompile-41e9qg"
-      binary: "C:/Users/jacob/OneDrive/Documents/GitHub/Donk-By-Daylight/build/CMakeFiles/CMakeScratch/TryCompile-41e9qg"
+      source: "C:/Users/jacob/OneDrive/Documents/GitHub/Donk-By-Daylight/build/CMakeFiles/CMakeScratch/TryCompile-l3qjpx"
+      binary: "C:/Users/jacob/OneDrive/Documents/GitHub/Donk-By-Daylight/build/CMakeFiles/CMakeScratch/TryCompile-l3qjpx"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /EHsc"
       CMAKE_CXX_FLAGS_DEBUG: "/Ob0 /Od /RTC1"
@@ -332,46 +332,46 @@ events:
       variable: "CMAKE_HAVE_PTHREAD_CREATE"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/jacob/OneDrive/Documents/GitHub/Donk-By-Daylight/build/CMakeFiles/CMakeScratch/TryCompile-41e9qg'
+        Change Dir: 'C:/Users/jacob/OneDrive/Documents/GitHub/Donk-By-Daylight/build/CMakeFiles/CMakeScratch/TryCompile-l3qjpx'
         
-        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/MSBuild/Current/Bin/MSBuild.exe" cmTC_58837.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/MSBuild/Current/Bin/MSBuild.exe" cmTC_c2123.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
         Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
         Copyright (C) Microsoft Corporation. All rights reserved.
         
-        Build started 3/23/2025 6:13:43 PM.
-        Project "C:\\Users\\jacob\\OneDrive\\Documents\\GitHub\\Donk-By-Daylight\\build\\CMakeFiles\\CMakeScratch\\TryCompile-41e9qg\\cmTC_58837.vcxproj" on node 1 (default targets).
+        Build started 3/24/2025 3:39:02 PM.
+        Project "C:\\Users\\jacob\\OneDrive\\Documents\\GitHub\\Donk-By-Daylight\\build\\CMakeFiles\\CMakeScratch\\TryCompile-l3qjpx\\cmTC_c2123.vcxproj" on node 1 (default targets).
         PrepareForBuild:
-          Creating directory "cmTC_58837.dir\\Debug\\".
-          Creating directory "C:\\Users\\jacob\\OneDrive\\Documents\\GitHub\\Donk-By-Daylight\\build\\CMakeFiles\\CMakeScratch\\TryCompile-41e9qg\\Debug\\".
-          Creating directory "cmTC_58837.dir\\Debug\\cmTC_58837.tlog\\".
+          Creating directory "cmTC_c2123.dir\\Debug\\".
+          Creating directory "C:\\Users\\jacob\\OneDrive\\Documents\\GitHub\\Donk-By-Daylight\\build\\CMakeFiles\\CMakeScratch\\TryCompile-l3qjpx\\Debug\\".
+          Creating directory "cmTC_c2123.dir\\Debug\\cmTC_c2123.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_58837.dir\\Debug\\cmTC_58837.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Creating "cmTC_c2123.dir\\Debug\\cmTC_c2123.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
         VcpkgTripletSelection:
           Using triplet "x64-windows" from "C:\\tools\\vcpkg\\installed\\x64-windows\\"
           Using normalized configuration "Debug"
         VcpkgCheckManifestRoot:
           The vcpkg manifest was disabled, but we found a manifest file in C:\\Users\\jacob\\OneDrive\\Documents\\GitHub\\Donk-By-Daylight\\. You may want to enable vcpkg manifests in your properties page or pass /p:VcpkgEnableManifest=true to the msbuild invocation.
         ClCompile:
-          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /I"C:\\tools\\vcpkg\\installed\\x64-windows\\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c++17 /Fo"cmTC_58837.dir\\Debug\\\\" /Fd"cmTC_58837.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Users\\jacob\\OneDrive\\Documents\\GitHub\\Donk-By-Daylight\\build\\CMakeFiles\\CMakeScratch\\TryCompile-41e9qg\\CheckFunctionExists.cxx"
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /I"C:\\tools\\vcpkg\\installed\\x64-windows\\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c++17 /Fo"cmTC_c2123.dir\\Debug\\\\" /Fd"cmTC_c2123.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Users\\jacob\\OneDrive\\Documents\\GitHub\\Donk-By-Daylight\\build\\CMakeFiles\\CMakeScratch\\TryCompile-l3qjpx\\CheckFunctionExists.cxx"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30159 for x64
           Copyright (C) Microsoft Corporation.  All rights reserved.
           CheckFunctionExists.cxx
-          cl /c /I"C:\\tools\\vcpkg\\installed\\x64-windows\\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c++17 /Fo"cmTC_58837.dir\\Debug\\\\" /Fd"cmTC_58837.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Users\\jacob\\OneDrive\\Documents\\GitHub\\Donk-By-Daylight\\build\\CMakeFiles\\CMakeScratch\\TryCompile-41e9qg\\CheckFunctionExists.cxx"
+          cl /c /I"C:\\tools\\vcpkg\\installed\\x64-windows\\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c++17 /Fo"cmTC_c2123.dir\\Debug\\\\" /Fd"cmTC_c2123.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Users\\jacob\\OneDrive\\Documents\\GitHub\\Donk-By-Daylight\\build\\CMakeFiles\\CMakeScratch\\TryCompile-l3qjpx\\CheckFunctionExists.cxx"
         Link:
-          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\jacob\\OneDrive\\Documents\\GitHub\\Donk-By-Daylight\\build\\CMakeFiles\\CMakeScratch\\TryCompile-41e9qg\\Debug\\cmTC_58837.exe" /INCREMENTAL /ILK:"cmTC_58837.dir\\Debug\\cmTC_58837.ilk" /NOLOGO /LIBPATH:"C:\\tools\\vcpkg\\installed\\x64-windows\\debug\\lib" /LIBPATH:"C:\\tools\\vcpkg\\installed\\x64-windows\\debug\\lib\\manual-link" pthread.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "C:\\tools\\vcpkg\\installed\\x64-windows\\debug\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/jacob/OneDrive/Documents/GitHub/Donk-By-Daylight/build/CMakeFiles/CMakeScratch/TryCompile-41e9qg/Debug/cmTC_58837.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/jacob/OneDrive/Documents/GitHub/Donk-By-Daylight/build/CMakeFiles/CMakeScratch/TryCompile-41e9qg/Debug/cmTC_58837.lib" /MACHINE:X64  /machine:x64 cmTC_58837.dir\\Debug\\CheckFunctionExists.obj
-        LINK : fatal error LNK1104: cannot open file 'pthread.lib' [C:\\Users\\jacob\\OneDrive\\Documents\\GitHub\\Donk-By-Daylight\\build\\CMakeFiles\\CMakeScratch\\TryCompile-41e9qg\\cmTC_58837.vcxproj]
-        Done Building Project "C:\\Users\\jacob\\OneDrive\\Documents\\GitHub\\Donk-By-Daylight\\build\\CMakeFiles\\CMakeScratch\\TryCompile-41e9qg\\cmTC_58837.vcxproj" (default targets) -- FAILED.
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\jacob\\OneDrive\\Documents\\GitHub\\Donk-By-Daylight\\build\\CMakeFiles\\CMakeScratch\\TryCompile-l3qjpx\\Debug\\cmTC_c2123.exe" /INCREMENTAL /ILK:"cmTC_c2123.dir\\Debug\\cmTC_c2123.ilk" /NOLOGO /LIBPATH:"C:\\tools\\vcpkg\\installed\\x64-windows\\debug\\lib" /LIBPATH:"C:\\tools\\vcpkg\\installed\\x64-windows\\debug\\lib\\manual-link" pthread.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "C:\\tools\\vcpkg\\installed\\x64-windows\\debug\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/jacob/OneDrive/Documents/GitHub/Donk-By-Daylight/build/CMakeFiles/CMakeScratch/TryCompile-l3qjpx/Debug/cmTC_c2123.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/jacob/OneDrive/Documents/GitHub/Donk-By-Daylight/build/CMakeFiles/CMakeScratch/TryCompile-l3qjpx/Debug/cmTC_c2123.lib" /MACHINE:X64  /machine:x64 cmTC_c2123.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: cannot open file 'pthread.lib' [C:\\Users\\jacob\\OneDrive\\Documents\\GitHub\\Donk-By-Daylight\\build\\CMakeFiles\\CMakeScratch\\TryCompile-l3qjpx\\cmTC_c2123.vcxproj]
+        Done Building Project "C:\\Users\\jacob\\OneDrive\\Documents\\GitHub\\Donk-By-Daylight\\build\\CMakeFiles\\CMakeScratch\\TryCompile-l3qjpx\\cmTC_c2123.vcxproj" (default targets) -- FAILED.
         
         Build FAILED.
         
-        "C:\\Users\\jacob\\OneDrive\\Documents\\GitHub\\Donk-By-Daylight\\build\\CMakeFiles\\CMakeScratch\\TryCompile-41e9qg\\cmTC_58837.vcxproj" (default target) (1) ->
+        "C:\\Users\\jacob\\OneDrive\\Documents\\GitHub\\Donk-By-Daylight\\build\\CMakeFiles\\CMakeScratch\\TryCompile-l3qjpx\\cmTC_c2123.vcxproj" (default target) (1) ->
         (Link target) -> 
-          LINK : fatal error LNK1104: cannot open file 'pthread.lib' [C:\\Users\\jacob\\OneDrive\\Documents\\GitHub\\Donk-By-Daylight\\build\\CMakeFiles\\CMakeScratch\\TryCompile-41e9qg\\cmTC_58837.vcxproj]
+          LINK : fatal error LNK1104: cannot open file 'pthread.lib' [C:\\Users\\jacob\\OneDrive\\Documents\\GitHub\\Donk-By-Daylight\\build\\CMakeFiles\\CMakeScratch\\TryCompile-l3qjpx\\cmTC_c2123.vcxproj]
         
             0 Warning(s)
             1 Error(s)
         
-        Time Elapsed 00:00:00.48
+        Time Elapsed 00:00:00.43
         
       exitCode: 1
 ...
