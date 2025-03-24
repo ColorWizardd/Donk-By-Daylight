@@ -9,9 +9,10 @@ A COLORWIZARDD PROJECT
 #include "../include/shared/ScreenHandler.h"
 #include "../include/shared/Settings.h"
 #include <tesseract/baseapi.h>
-#include <allheaders.h>
+#include <leptonica/allheaders.h>
 #include <iostream>
 #include <Windows.h>
+
 
 // *  TEST CODE FOR ENUMERATING ALL WINDOWS/CLASSES  * 
 
@@ -39,27 +40,23 @@ A COLORWIZARDD PROJECT
 class TessLib {
     public:
     // Static method for returning text from image
-    static void processText(char *txt) {
+    static char* processText() {
         tesseract::TessBaseAPI *api = new tesseract::TessBaseAPI();
-        if(api->Init(NULL, "eng")) {
+        api->SetVariable("tessedit_char_whitelist","abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ");
+        if(api->Init(DBD_GLOBAL.langData, "eng")) {
             std::cout << "ERROR: Could not initialize tesseract\n";
-            return;
-        }
-
-        if(txt != nullptr) {
-            delete[] txt;
+            return nullptr;
         }
 
         Pix *img = pixRead(DBD_GLOBAL.outFile);
         api->SetImage(img);
         char *imgText = api->GetUTF8Text();
 
-        txt = imgText;
+        char *txt = imgText;
         api->End();
         delete api;
-        delete[] imgText;
         pixDestroy(&img);
-        return;
+        return txt;
     }
     // Static method for matching text to given range of options
     
@@ -71,17 +68,9 @@ const char* outFile = DBD_GLOBAL.outFile;
 // Basic keypress test
 int main() {
     KeyHandler* SpaceCheck = new KeyHandler();
-    ScreenHandler* ScreenCheck = new ScreenHandler("MozillaWindowClass");
-    const int sleepTime = 1000;
+    ScreenHandler* ScreenCheck = new ScreenHandler(DBD_GLOBAL.className);
+    const int sleepTime = 50;
     const int screenshotDelay = 500;
-
-    // TESSERACT TEST
-
-    // char *txt = nullptr;
-
-    // TessLib::processText(txt);
-
-    // std::cout << "Result: " << txt << '\n';
 
 
     // std::cout << "Enmumerating windows..." << std::endl;
@@ -91,6 +80,7 @@ int main() {
     if(!ScreenCheck->initializeWindow(DBD_GLOBAL.className)) {
         std::cout << "THIS AINT WORKING CHIEF... \n";
     }
+    std::cout << "Hey, at least we started?" << '\n';
 
     while(true) {
         if(SpaceCheck->getKeyState()) {
@@ -117,7 +107,15 @@ int main() {
                 if(screenShotWorked) {
                     std::cout << "TEST RECT X-COORDS: " << outRect.left << ", " << outRect.right <<
                     "\nTEST RECT Y-COORDS: " << outRect.bottom << ", " << outRect.top << '\n';
+
+                    char *txt = TessLib::processText();
+                    std::cout << "Result: " << txt << '\n';
+                    delete[] txt;
+
                 }
+
+
+
             }
         }
         Sleep(sleepTime);
