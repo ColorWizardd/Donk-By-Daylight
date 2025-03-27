@@ -34,8 +34,8 @@ add_library(SettingsLib include/shared/Settings.h src/Settings.cpp)
 
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/bin)
 
-install(DIRECTORY ${CMAKE_RUNTIME_OUTPUT_DIRECTORY}/img DESTINATION .)
-install(DIRECTORY ${CMAKE_CURRENT_BINARY_DIR}/tessdata DESTINATION .)
+file(MAKE_DIRECTORY ${CMAKE_RUNTIME_OUTPUT_DIRECTORY}/img)
+file(MAKE_DIRECTORY ${CMAKE_CURRENT_BINARY_DIR}/tessdata)
 
 add_custom_target(copy_tessdata
     COMMAND ${CMAKE_COMMAND} -E copy_directory ${CMAKE_CURRENT_LIST_DIR}/tessdata ${CMAKE_CURRENT_BINARY_DIR}/tessdata

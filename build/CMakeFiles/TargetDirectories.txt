@@ -4,6 +4,5 @@ C:/Users/jacob/OneDrive/Documents/GitHub/Donk-By-Daylight/build/CMakeFiles/Setti
 C:/Users/jacob/OneDrive/Documents/GitHub/Donk-By-Daylight/build/CMakeFiles/copy_tessdata.dir
 C:/Users/jacob/OneDrive/Documents/GitHub/Donk-By-Daylight/build/CMakeFiles/TestExample.dir
 C:/Users/jacob/OneDrive/Documents/GitHub/Donk-By-Daylight/build/CMakeFiles/RUN_TESTS.dir
-C:/Users/jacob/OneDrive/Documents/GitHub/Donk-By-Daylight/build/CMakeFiles/INSTALL.dir
 C:/Users/jacob/OneDrive/Documents/GitHub/Donk-By-Daylight/build/CMakeFiles/ALL_BUILD.dir
 C:/Users/jacob/OneDrive/Documents/GitHub/Donk-By-Daylight/build/CMakeFiles/ZERO_CHECK.dir

@@ -130,7 +130,7 @@ bool ScreenHandler::screenshot(HWND window, RECT &testRect) {
         (rect.bottom - rect.top),
         displayContext,
         rect.left, rect.top,
-        SRCCOPY
+        NOTSRCCOPY
     )) {
         MessageBoxA(window, "BitBlt has failed", NULL, MB_OK);
         DeleteObject(hbMap);
@@ -154,12 +154,12 @@ bool ScreenHandler::screenshot(HWND window, RECT &testRect) {
     bMapIHead.biWidth = bMapScreen.bmWidth;
     bMapIHead.biHeight = bMapScreen.bmHeight;
     bMapIHead.biPlanes = 1;
-    bMapIHead.biBitCount = 32;
+    bMapIHead.biBitCount = 16;
     bMapIHead.biCompression = BI_RGB;
     bMapIHead.biSizeImage = 0;
     bMapIHead.biXPelsPerMeter = 0;
     bMapIHead.biYPelsPerMeter = 0;
-    bMapIHead.biClrUsed = 0;
+    bMapIHead.biClrUsed = 4;
     bMapIHead.biClrImportant = 0;
 
     bmpSize = ((bMapScreen.bmWidth * bMapIHead.biBitCount + 31) / 32) * 4 * bMapScreen.bmHeight;
