@@ -78,9 +78,8 @@ int main() {
     // // std::cin.ignore();
 
     if(!ScreenCheck->initializeWindow(DBD_GLOBAL.className)) {
-        std::cout << "THIS AINT WORKING CHIEF... \n";
+        std::cout << "ERROR: COULD NOT INITIALIZE WINDOW. \n";
     }
-    std::cout << "Hey, at least we started?" << '\n';
 
     while(true) {
         if(SpaceCheck->getKeyState()) {
@@ -89,10 +88,10 @@ int main() {
             RECT outRect;
             HWND currScreen = ScreenCheck->getWindow(DBD_GLOBAL.className);
             if(currScreen == NULL) {
-                std::cout << "IM GONNA KILL MYSELF\n";
+                std::cout << "ERROR: NO CURRENT SCREEN FOUND\n";
             }
             if(!GetClientRect(currScreen, &windowRect)){
-                std::cout << "I HATE RECTANGLES!!!!!\n";
+                std::cout << "ERROR: COULD NOT GET CLIENT RECT\n";
             }
             else{
                 std::cout << "Default X-VALS: " << windowRect.left << " " << windowRect.right << 
